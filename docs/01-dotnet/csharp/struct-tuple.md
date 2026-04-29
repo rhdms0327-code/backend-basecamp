@@ -1,21 +1,19 @@
 ---
-title: "[7장] 구조체 및 튜플 (Struct & Tuple)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 20
+layout: post
+title: "🎯 [7장] 구조체 및 튜플 (Struct & Tuple)"
+date: 2026-04-29
+categories: [C#]
+tags: [C#]
 ---
 
-# [7장] 구조체 및 튜플 (Struct & Tuple)
+> - 데이터를 캡슐화할 수 있는 **값 형식(Value Type)**입니다.
 
-## 1. 구조체 (Struct)
-- 데이터를 캡슐화할 수 있는 **값 형식(Value Type)**입니다.
 - **특징**:
   - **스택(Stack)**에 저장되어 GC의 부하를 줄입니다.
   - 상속이 불가능합니다.
   - 작은 크기의 불변 데이터를 다룰 때 성능상 유리합니다.
 
-## 2. 구조체 vs 클래스
+## 🧱 2. 구조체 vs 클래스
 | 특징 | 구조체 (Struct) | 클래스 (Class) |
 | :--- | :--- | :--- |
 | **타입** | 값 형식 (Value Type) | 참조 형식 (Reference Type) |
@@ -41,3 +39,6 @@ Console.WriteLine(info.name);
 ---
 > **참고 자료**
 > - [구조체 형식 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/struct)
+
+---
+[🔙 뒤로 가기](./index.md)

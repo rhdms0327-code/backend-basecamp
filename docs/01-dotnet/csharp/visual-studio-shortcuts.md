@@ -1,14 +1,13 @@
 ---
-title: "Visual Studio 단축키 모음"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 34
+layout: post
+title: "🎯 Visual Studio 단축키 모음"
+date: 2026-04-29
+categories: [C#]
+tags: [C#]
 ---
 
-# Visual Studio 단축키 모음
+> 개발 생산성을 높여주는 필수 단축키들을 정리했습니다.
 
-개발 생산성을 높여주는 필수 단축키들을 정리했습니다.
 
 ## 1. 기본 조작
 - **Ctrl + Q**: 모든 명령 검색 (핵심!)
@@ -35,3 +34,6 @@ nav_order: 34
 
 ---
 > **팁**: `Tools > Options > Environment > Keyboard`에서 모든 단축키를 확인하고 커스터마이징할 수 있습니다.
+
+---
+[🔙 뒤로 가기](./index.md)

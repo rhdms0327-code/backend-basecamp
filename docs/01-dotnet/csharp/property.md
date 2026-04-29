@@ -1,15 +1,13 @@
 ---
-title: "[9장] 프로퍼티 (Property)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 18
+layout: post
+title: "🎯 [9장] 프로퍼티 (Property)"
+date: 2026-04-29
+categories: [C#]
+tags: [C#]
 ---
 
-# [9장] 프로퍼티 (Property)
+> - 필드에 대한 접근자(`get`, `set`)를 제공하여 데이터를 캡슐화하고 관리하는 C#의 기능입니다.
 
-## 1. 개요
-- 필드에 대한 접근자(`get`, `set`)를 제공하여 데이터를 캡슐화하고 관리하는 C#의 기능입니다.
 - 외부에서는 변수처럼 보이지만, 내부적으로는 메서드로 동작합니다.
 
 ## 2. 자동 구현 프로퍼티 (Auto-Implemented Property)
@@ -33,3 +31,6 @@ public class User
 ---
 > **참고 자료**
 > - [프로퍼티 사용 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/properties)
+
+---
+[🔙 뒤로 가기](./index.md)

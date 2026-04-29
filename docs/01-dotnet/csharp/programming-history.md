@@ -1,14 +1,13 @@
 ---
-title: "[1장] 프로그래밍 언어의 역사"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 42
+layout: post
+title: "🎯 [1장] 프로그래밍 언어의 역사"
+date: 2026-04-29
+categories: [C#]
+tags: [C#]
 ---
 
-# [1장] 프로그래밍 언어의 역사
+> 컴퓨터와 프로그래밍 언어가 발전해 온 흐름을 살펴봅니다.
 
-컴퓨터와 프로그래밍 언어가 발전해 온 흐름을 살펴봅니다.
 
 ## 1. 기계식 계산기 시대
 - **파스칼 계산기**: 최초의 기계식 계산기 (톱니바퀴 방식).
@@ -26,3 +25,6 @@ nav_order: 42
 ---
 > **참고 자료**
 > - [컴퓨팅의 역사 - Wikipedia](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%8C%85%EC%9D%98_%EC%97%AD%EC%82%AC)
+
+---
+[🔙 뒤로 가기](./index.md)

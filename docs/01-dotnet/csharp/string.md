@@ -1,14 +1,13 @@
 ---
-title: "[3장] 문자열 (String)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 28
+layout: post
+title: "🎯 [3장] 문자열 (String)"
+date: 2026-04-29
+categories: [C#]
+tags: [배열, C#]
 ---
 
-# [3장] 문자열 (String)
+> C#의 `string`은 유니코드 문자의 시퀀스를 나타내는 참조 형식입니다.
 
-C#의 `string`은 유니코드 문자의 시퀀스를 나타내는 참조 형식입니다.
 
 ## 1. 주요 메서드
 | 메서드 | 설명 |
@@ -36,3 +35,6 @@ Console.WriteLine($"Name: {name}, Age: {age}");
 ---
 > **참고 자료**
 > - [문자열 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/strings/)
+
+---
+[🔙 뒤로 가기](./index.md)

@@ -1,15 +1,13 @@
 ---
-title: "[18장] 스트림 (Stream)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 8
+layout: post
+title: "🎯 [18장] 스트림 (Stream)"
+date: 2026-04-29
+categories: [C#]
+tags: [메모리, C#]
 ---
 
-# [18장] 스트림 (Stream)
+> - 데이터를 연속적인 바이트(Byte)의 흐름으로 취급하는 방식입니다.
 
-## 1. 스트림의 개념
-- 데이터를 연속적인 바이트(Byte)의 흐름으로 취급하는 방식입니다.
 - 파일, 메모리, 네트워크 등 데이터의 소스나 목적지에 관계없이 동일한 인터페이스로 데이터를 주고받을 수 있게 해줍니다.
 
 ## 2. System.IO.Stream 클래스
@@ -32,3 +30,6 @@ nav_order: 8
 ---
 > **참고 자료**
 > - [파일 및 스트림 I/O - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/standard/io/)
+
+---
+[🔙 뒤로 가기](./index.md)

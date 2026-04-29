@@ -1,15 +1,13 @@
 ---
-title: "[5장] 연산자, 식, 문 개요"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 24
+layout: post
+title: "🎯 [5장] 연산자, 식, 문 개요"
+date: 2026-04-29
+categories: [C#]
+tags: [C#]
 ---
 
-# [5장] 연산자, 식, 문 개요
+> - **연산자 (Operator)**: 동작을 수행하도록 지시하는 기호나 키워드 (예: `+`, `is`, `new`).
 
-## 1. 용어 정의
-- **연산자 (Operator)**: 동작을 수행하도록 지시하는 기호나 키워드 (예: `+`, `is`, `new`).
 - **식 (Expression)**: 하나 이상의 피연산자와 연산자의 조합으로, 최종적으로 **하나의 값을 반환**합니다.
 - **문 (Statement)**: 어떤 동작이나 행위를 수행하는 코드의 단위입니다. (예: `if`, `for`, 선언문).
 
@@ -25,3 +23,6 @@ nav_order: 24
 ---
 > **참고 자료**
 > - [C# 연산자 및 식 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/)
+
+---
+[🔙 뒤로 가기](./index.md)

@@ -1,15 +1,13 @@
 ---
-title: "[19장] 스레드 기본 개념 (Process vs Thread)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 7
+layout: post
+title: "🧠 [19장] 스레드 기본 개념 (Process vs Thread)"
+date: 2026-04-29
+categories: [C#]
+tags: [C#, 메모리]
 ---
 
-# [19장] 스레드 기본 개념 (Process vs Thread)
+> 운영체제로부터 자원을 할당받은 **실행 중인 프로그램의 인스턴스**입니다.
 
-## 1. 프로세스 (Process)
-운영체제로부터 자원을 할당받은 **실행 중인 프로그램의 인스턴스**입니다.
 - **독립성**: 각 프로세스는 독립된 메모리 영역(Code, Data, Stack, Heap)을 가집니다.
 - **안정성**: 한 프로세스가 죽어도 다른 프로세스에 영향을 주지 않습니다.
 - **비용**: 컨텍스트 스위칭(Context Switching) 비용이 큽니다.
@@ -21,7 +19,7 @@ nav_order: 7
 - **효율성**: 생성 및 종료가 빠르고, 메모리 공유 덕분에 통신 비용이 적습니다.
 - **취약성**: 한 스레드에서 예외가 발생하면 프로세스 전체가 영향을 받을 수 있습니다.
 
-## 3. 프로세스의 메모리 구조
+## 🧱 3. 프로세스의 메모리 구조
 1. **Code**: 실행할 기계어 명령어 (Read-only).
 2. **Data**: 전역 변수, 정적 변수 (프로그램 종료 시까지 유지).
 3. **Stack**: 함수의 지역 변수, 매개변수 (LIFO 구조, 함수 종료 시 소멸).
@@ -49,3 +47,6 @@ thread.Join();
 ---
 > **참고 자료**
 > - [관리되는 스레딩 기본 사항 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/standard/threading/managed-threading-basics)
+
+---
+[🔙 뒤로 가기](./index.md)

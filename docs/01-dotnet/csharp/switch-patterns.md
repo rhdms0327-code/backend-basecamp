@@ -1,14 +1,13 @@
 ---
-title: "[5장] switch 패턴 매칭 (버전별 정리)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 25
+layout: post
+title: "🎯 [5장] switch 패턴 매칭 (버전별 정리)"
+date: 2026-04-29
+categories: [C#]
+tags: [C#]
 ---
 
-# [5장] switch 패턴 매칭 (버전별 정리)
+> C# 버전이 올라감에 따라 `switch`는 단순한 분기문을 넘어 강력한 패턴 매칭 도구로 진화했습니다.
 
-C# 버전이 올라감에 따라 `switch`는 단순한 분기문을 넘어 강력한 패턴 매칭 도구로 진화했습니다.
 
 ## 1. C# 7.0: switch 문 강화
 - **형식 패턴**: `case int i:` 처럼 타입에 따른 분기가 가능해졌습니다.
@@ -37,3 +36,6 @@ string result = color switch
 ---
 > **참고 자료**
 > - [패턴 매칭 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/csharp/fundamentals/functional/pattern-matching)
+
+---
+[🔙 뒤로 가기](./index.md)

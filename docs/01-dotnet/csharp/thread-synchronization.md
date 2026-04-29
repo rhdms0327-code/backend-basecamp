@@ -1,14 +1,13 @@
 ---
-title: "[19장] 스레드 동기화 (Thread Synchronization)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 6
+layout: post
+title: "🧵 [19장] 스레드 동기화 (Thread Synchronization)"
+date: 2026-04-29
+categories: [C#]
+tags: [C#, 메모리]
 ---
 
-# [19장] 스레드 동기화 (Thread Synchronization)
+> 여러 스레드가 동일한 자원(메모리, 파일 등)에 동시에 접근할 때 데이터가 오염되지 않도록 순서를 제어하는 기술입니다.
 
-여러 스레드가 동일한 자원(메모리, 파일 등)에 동시에 접근할 때 데이터가 오염되지 않도록 순서를 제어하는 기술입니다.
 
 ## 1. 주요 개념
 - **경합 조건 (Race Condition)**: 여러 스레드가 동시에 데이터를 수정하려고 경쟁하는 상황.
@@ -48,3 +47,6 @@ public void SafeMethod()
 ---
 > **참고 자료**
 > - [Monitor 클래스 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/api/system.threading.monitor)
+
+---
+[🔙 뒤로 가기](./index.md)

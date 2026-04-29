@@ -1,15 +1,13 @@
 ---
-title: "[.NET 분석] .NET이란 무엇인가?"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 38
+layout: post
+title: "🔍 [.NET 분석] .NET이란 무엇인가?"
+date: 2026-04-29
+categories: [C#]
+tags: [C#]
 ---
 
-# [.NET 분석] .NET이란 무엇인가?
+> .NET은 클라우드, 웹, 데스크톱, 모바일, 게임 등 다양한 애플리케이션을 개발, 빌드, 실행할 수 있는 **전체 환경**을 의미합니다.
 
-## 1. 플랫폼(Platform)으로서의 .NET
-.NET은 클라우드, 웹, 데스크톱, 모바일, 게임 등 다양한 애플리케이션을 개발, 빌드, 실행할 수 있는 **전체 환경**을 의미합니다.
 
 ## 2. 개발 가능한 앱 종류
 - **웹/클라우드**: ASP.NET Core
@@ -29,3 +27,6 @@ nav_order: 38
 ---
 > **참고 자료**
 > - [.NET이란? - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/core/introduction)
+
+---
+[🔙 뒤로 가기](./index.md)

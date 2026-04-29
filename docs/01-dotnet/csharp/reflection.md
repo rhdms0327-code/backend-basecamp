@@ -1,15 +1,13 @@
 ---
-title: "[16장] 리플렉션 (Reflection)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 10
+layout: post
+title: "🎯 [16장] 리플렉션 (Reflection)"
+date: 2026-04-29
+categories: [C#]
+tags: [C#]
 ---
 
-# [16장] 리플렉션 (Reflection)
+> - 프로그램이 실행 중(런타임)에 **자신의 구조를 스스로 조사하고 조작**하는 메커니즘입니다.
 
-## 1. 개요
-- 프로그램이 실행 중(런타임)에 **자신의 구조를 스스로 조사하고 조작**하는 메커니즘입니다.
 - 어셈블리 내의 타입 정보(클래스, 인터페이스 등)를 알아내고 동적으로 조작할 수 있습니다.
 
 ## 2. 핵심 클래스: System.Type
@@ -31,3 +29,6 @@ nav_order: 10
 ---
 > **참고 자료**
 > - [리플렉션 개요 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/framework/reflection-and-codedom/reflection)
+
+---
+[🔙 뒤로 가기](./index.md)

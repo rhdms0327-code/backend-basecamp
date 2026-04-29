@@ -1,15 +1,13 @@
 ---
-title: "[6장] 메서드 매개변수 (ref, out)"
-parent: C#
-grand_parent: .NET
-nav_exclude: true
-nav_order: 23
+layout: post
+title: "🎯 [6장] 메서드 매개변수 (ref, out)"
+date: 2026-04-29
+categories: [C#]
+tags: [C#, 메모리]
 ---
 
-# [6장] 메서드 매개변수 (ref, out)
+> - **값에 의한 전달 (Pass by Value)**: 매개변수의 값을 복사하여 전달합니다. 메서드 내부에서 값을 바꿔도 원본은 변하지 않습니다. (C#의 기본값)
 
-## 1. 값에 의한 전달 vs 참조에 의한 전달
-- **값에 의한 전달 (Pass by Value)**: 매개변수의 값을 복사하여 전달합니다. 메서드 내부에서 값을 바꿔도 원본은 변하지 않습니다. (C#의 기본값)
 - **참조에 의한 전달 (Pass by Reference)**: 매개변수의 메모리 주소를 전달합니다. 메서드 내부에서의 변경이 원본에 직접 반영됩니다.
 
 ## 2. ref 키워드
@@ -30,3 +28,6 @@ nav_order: 23
 ---
 > **참고 자료**
 > - [매개변수 전달 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters)
+
+---
+[🔙 뒤로 가기](./index.md)
