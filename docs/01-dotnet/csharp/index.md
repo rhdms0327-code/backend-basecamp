@@ -7,13 +7,9 @@ nav_order: 1
 ---
 
 # 📘 C# Deep Dive: Core & Advanced
-> **Reference:** [C# 핵심 기술 가이드 (Core C# 12/13)](https://www.yes24.com/product/goods/118685906)를 기반으로 학습하며 깊이 있게 파고든 기록입니다.
-
-<br>
-
-## 📊 학습 현황 및 목표
-- **총 게시글:** 43개
-- **핵심 키워드:** `#CLR` `#Memory_Management` `#Async_Programming` `#LINQ`
+> **참고 서적:** [이것이 C#이다 (yes24 링크)](https://www.yes24.com/product/goods/118685906)
+> - **대상 버전:** C# 10.0 (.NET 6)
+> - **학습 목표:** C# 최신 문법과 CLR의 심층적인 내부 동작 원리를 체계적으로 학습합니다.
 
 ---
 
