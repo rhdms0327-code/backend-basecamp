@@ -2,8 +2,8 @@
 layout: post
 title: "🎯 Visual Studio 단축키 모음"
 date: 2026-04-29
-categories: [C#]
-tags: [C#]
+categories: [Visual Studio 2022]
+tags: [Visual Studio, 단축키]
 nav_exclude: true
 ---
 

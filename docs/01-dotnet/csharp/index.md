@@ -12,7 +12,7 @@ nav_order: 1
 > - **학습 목표:** C# 최신 문법과 CLR의 심층적인 내부 동작 원리를 체계적으로 학습합니다.
 
 ---
-## 📂 리스트 (총 43건)
+## 📂 리스트 (총 42건)
 
 | 제목 | 키워드 |
 | :--- | :--- |
@@ -58,7 +58,6 @@ nav_order: 1
 | **[[C#] 🎯 [CLR 심층 분석] CLR 관련 개념 정리](./docs/clr-deep-dive.md)** | `CLR` `런타임` `C#` |
 | **[[C#] 🎯 C# 언어 버전 관리](./docs/csharp-version-management.md)** | `C#` `버전관리` |
 | **[[C#] 🎯 C# 코딩 규칙 (Coding Conventions)](./docs/coding-conventions.md)** | `코딩규칙` `클린코드` `C#` |
-| **[[C#] 🎯 Visual Studio 단축키 모음](./docs/visual-studio-shortcuts.md)** | `C#` |
 
 ---
 <div align="center">
