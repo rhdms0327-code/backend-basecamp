@@ -1,79 +1,110 @@
 ---
-title: C#
+layout: default
+title: C# 공부
 parent: .NET
 has_children: true
 nav_order: 1
 ---
 
-# 🔷 C# 지식 저장소
-
-C#의 기초 문법부터 객체 지향 프로그래밍, 그리고 CLR 내부 동작 원리까지 체계적으로 학습한 내용을 정리합니다.
-
-<br>
-
-## 🌱 1. 기초 문법 및 환경 설정 (Core Syntax & Environment)
-
-| 📑 포스팅 제목 (Link) | 📝 핵심 요약 (Summary) | 🏷️ Keywords |
-| :--- | :--- | :--- |
-| **[[.NET 분석] .NET이란 무엇인가?](./what-is-dotnet.md)** | .NET 플랫폼의 정의와 주요 구성 요소 개요 | `#Platform` `#Architecture` |
-| **[.NET의 역사와 주요 특징](./dotnet-history-features.md)** | .NET Framework부터 .NET 9까지의 발전 과정 | `#History` `#Evolution` |
-| **[.NET 필수 용어 정리](./dotnet-terminology.md)** | Managed Code, CLR, BCL 등 핵심 용어 해설 | `#Glossary` `#Runtime` |
-| **[C# 개발 환경 구성 및 프로젝트 구조](./csharp-environment-setup.md)** | 개발 환경 세팅 및 C# 솔루션/프로젝트 구조 이해 | `#Setup` `#ProjectStructure` |
-| **[비주얼 스튜디오 필수 단축키 정리](./visual-studio-shortcuts.md)** | 생산성을 높여주는 IDE 단축키 및 팁 | `#IDE` `#Productivity` |
-| **[Hello World 코드로 보는 C# 프로그램 구조](./hello-world-analysis.md)** | 네임스페이스, 클래스, Main 메서드 분석 | `#BasicCode` `#Structure` |
-| **[정수 계열 데이터 형식 및 오버플로 이해](./integer-types.md)** | int, long 등 정수 타입의 범위와 오버플로 처리 | `#Integer` `#Overflow` |
-| **[부동 소수점 형식 비교](./floating-point.md)** | float, double, decimal의 정밀도 차이와 용도 | `#Precision` `#Decimal` |
-| **[문자(Char) 및 논리(Bool) 데이터 형식](./char-bool.md)** | 유니코드 문자와 참/거짓 값을 다루는 기본 형식 | `#PrimitiveTypes` |
-| **[Object 형식과 박싱/언박싱](./object-boxing-unboxing.md)** | 모든 형식의 조상 Object와 성능에 미치는 영향 | `#Boxing` `#HeapStack` |
-| **[상수, 열거형(Enum), Nullable 형식](./constants-enum-nullable.md)** | 변하지 않는 값과 선택적 값을 다루는 방법 | `#Enum` `#Nullable` |
-| **[문자열(String) 형식과 주요 메서드 활용](./string.md)** | 불변(Immutable) 문자열의 특징과 조작법 | `#String` `#Immutability` |
-| **[var 키워드와 암시적 형식 지역 변수](./implicitly-typed-local-variables.md)** | 타입 추론을 통한 코드 간결화와 주의사항 | `#TypeInference` `#var` |
-| **[연산자, 식(Expression), 문(Statement) 개요](./operators-expressions.md)** | C#의 다양한 연산자와 구문 실행 단위 | `#Operators` `#Syntax` |
-| **[C# 버전별 switch 패턴 매칭 진화 과정](./switch-patterns.md)** | 최신 C#에서 강화된 패턴 매칭과 switch 식 | `#PatternMatching` `#C#Versions` |
+# 📘 C# Deep Dive: Core & Advanced
+> **Reference:** [C# 핵심 기술 가이드 (Core C# 12/13)](https://www.yes24.com/product/goods/118685906)를 기반으로 학습하며 깊이 있게 파고든 기록입니다.
 
 <br>
 
-## 🚀 2. 객체지향 프로그래밍 및 데이터 구조 (OOP & Data Structures)
-
-| 📑 포스팅 제목 (Link) | 📝 핵심 요약 (Summary) | 🏷️ Keywords |
-| :--- | :--- | :--- |
-| **[메서드 매개변수 전달 방식 (ref, out, in)](./method-params.md)** | 참조에 의한 전달과 출력 전용 매개변수 활용 | `#Ref` `#Out` `#Parameters` |
-| **[클래스의 정의와 멤버 개요](./class-overview.md)** | 필드, 메서드, 생성자 등 클래스 구성 요소 | `#Class` `#Constructor` |
-| **[상속, 다형성 및 접근 제한자](./inheritance-polymorphism.md)** | 코드 재사용과 객체지향의 핵심 원리 | `#Inheritance` `#Polymorphism` |
-| **[구조체(Struct)와 튜플(Tuple) 데이터 구조](./struct-tuple.md)** | 값 형식 기반의 데이터 묶음과 효율적인 활용 | `#Struct` `#Tuple` |
-| **[인터페이스(Interface)의 역할과 기본 구현](./interface.md)** | 객체 간의 계약 정의와 느슨한 결합 | `#Interface` `#Contract` |
-| **[프로퍼티(Property)와 자동 구현 프로퍼티](./property.md)** | 데이터 캡슐화와 접근 제어를 위한 프로퍼티 | `#Encapsulation` `#Property` |
-| **[C# 배열 선언, 초기화 및 다차원 배열](./array.md)** | 동일 타입의 연속된 데이터 관리 기법 | `#Array` `#MultiDimensional` |
-| **[주요 컬렉션 클래스 비교](./collections.md)** | List, Queue, Stack, Hashtable의 용도별 선택 | `#Collections` `#List` `#DataStructure` |
-
-<br>
-
-## ⚡ 3. 고급 문법 및 비동기 프로그래밍 (Advanced & Async)
-
-| 📑 포스팅 제목 (Link) | 📝 핵심 요약 (Summary) | 🏷️ Keywords |
-| :--- | :--- | :--- |
-| **[일반화 프로그래밍(Generic)과 형식 제약](./generic-programming.md)** | 타입에 구애받지 않는 코드 작성과 제약 조건 | `#Generic` `#Constraints` |
-| **[예외 처리(Exception Handling)](./exception-handling.md)** | try-catch-finally를 이용한 안정적인 에러 대응 | `#Exception` `#Reliability` |
-| **[대리자(Delegate) 개념 및 멀티캐스트](./delegate.md)** | 메서드를 참조하는 변수와 이벤트의 기초 | `#Delegate` `#Callback` |
-| **[람다식(Lambda Expression)과 제네릭 대리자](./lambda-expression.md)** | 익명 함수와 Func, Action 활용법 | `#Lambda` `#Functional` |
-| **[LINQ 기본 사용법](./linq.md)** | 데이터를 질의하는 강력한 쿼리 구문 | `#LINQ` `#Query` |
-| **[리플렉션(Reflection)을 통한 타입 정보 탐색](./reflection.md)** | 실행 중에 객체 정보를 분석하고 조작하는 기술 | `#Reflection` `#Metadata` |
-| **[애트리뷰트(Attribute)를 이용한 메타데이터](./attribute.md)** | 코드 요소에 부가 정보를 부여하는 기능 | `#Attribute` `#Annotations` |
-| **[동기/비동기 개념 및 async/await](./async-sync-blocking-nonblocking.md)** | 비차단(Non-blocking) 프로그래밍의 핵심 원리 | `#Async` `#Await` `#NonBlocking` |
-
-<br>
-
-## 🧠 4. CLR 심층 분석 및 시스템 (CLR & System)
-
-| 📑 포스팅 제목 (Link) | 📝 핵심 요약 (Summary) | 🏷️ Keywords |
-| :--- | :--- | :--- |
-| **[[CLR 심층 분석] CLR이 사용하는 메모리 구조](./clr-memory-structure.md)** | Stack, Managed Heap, Loader Heap 분석 | `#Memory` `#StackHeap` |
-| **[[CLR 심층 분석] 가비지 컬렉션(GC) 원리](./garbage-collection.md)** | 세대별 관리 전략과 LOH/SOH 구분 | `#GC` `#GarbageCollection` |
-| **[[CLR 심층 분석] CLR의 내부 동작 및 역할](./clr-deep-dive.md)** | 타입 로딩, JIT 컴파일러, 예외 처리 메커니즘 | `#CLR` `#Runtime` `#JIT` |
-| **[데이터 스트림(Stream)과 파일 I/O](./stream.md)** | 바이트 기반의 순차적 데이터 입출력 처리 | `#Stream` `#FileIO` |
-| **[프로세스와 스레드(Thread)의 기본 개념](./thread-basics.md)** | 다중 작업 처리를 위한 실행 단위의 이해 | `#Process` `#Thread` `#Concurrency` |
-| **[스레드 동기화(lock, Monitor) 기법](./thread-synchronization.md)** | 공유 자원 접근 제어와 레이스 컨디션 방지 | `#Synchronization` `#Lock` `#ThreadSafety` |
+## 📊 학습 현황 및 목표
+- **총 게시글:** 43개
+- **핵심 키워드:** `#CLR` `#Memory_Management` `#Async_Programming` `#LINQ`
 
 ---
-> **참고 자료**
-> - [C# 가이드 - Microsoft Learn](https://learn.microsoft.com/ko-kr/dotnet/csharp/)
+
+## 📂 주제별 학습 리스트 (Accordion)
+*클릭하면 세부 게시글 리스트가 나타납니다.*
+
+<details open>
+  <summary><b>1. C# 기초 및 언어의 핵심 (Syntax & Types)</b></summary>
+  <div style="padding-left: 20px; margin-top: 10px;">
+    <ul>
+      <li><a href="./what-is-dotnet.md">.NET이란 무엇인가?</a> <code>#Platform</code> <code>#Architecture</code></li>
+      <li><a href="./dotnet-history-features.md">.NET의 역사와 주요 특징</a> <code>#History</code></li>
+      <li><a href="./dotnet-terminology.md">.NET 필수 용어 정리</a> <code>#Glossary</code></li>
+      <li><a href="./dotnet-framework-installation.md">.NET Framework 설치 가이드</a></li>
+      <li><a href="./csharp-environment-setup.md">C# 개발 환경 구성 및 프로젝트 구조</a> <code>#Setup</code></li>
+      <li><a href="./visual-studio-shortcuts.md">비주얼 스튜디오 필수 단축키</a> <code>#Productivity</code></li>
+      <li><a href="./hello-world-creation.md">Hello World 콘솔 앱 프로젝트 생성</a></li>
+      <li><a href="./hello-world-analysis.md">Hello World 소스 코드 구조 분석</a></li>
+      <li><a href="./csharp-version-management.md">C# 언어 버전 관리 방법</a></li>
+      <li><a href="./coding-conventions.md">C# 공식 코딩 규칙 정리</a> <code>#CleanCode</code></li>
+      <li><a href="./integer-types.md">[3장] 정수 계열 (Integer Type)</a> <code>#Integer</code></li>
+      <li><a href="./floating-point.md">[3장] 부동 소수점 형식 (Floating Point)</a> <code>#Precision</code></li>
+      <li><a href="./char-bool.md">[3장] 문자 및 논리 형식 (Char & Bool)</a></li>
+      <li><a href="./object-boxing-unboxing.md">[3장] Object 형식과 박싱/언박싱</a> <code>#Boxing</code></li>
+      <li><a href="./constants-enum-nullable.md">[3장] 상수, 열거형(Enum), Nullable</a> <code>#Nullable</code></li>
+      <li><a href="./string.md">[3장] 문자열 (String)</a> <code>#Immutability</code></li>
+      <li><a href="./implicitly-typed-local-variables.md">[3장] 암시적 형식 지역 변수 (var)</a></li>
+      <li><a href="./operators-expressions.md">[4장] 연산자, 식, 문 (Syntax)</a></li>
+      <li><a href="./switch-patterns.md">[5장] switch 패턴 매칭</a> <code>#PatternMatching</code></li>
+      <li><a href="./method-params.md">[6장] 메서드 매개변수 전달 (ref, out)</a></li>
+      <li><a href="./property.md">[9장] 프로퍼티 (Property)</a> <code>#Encapsulation</code></li>
+      <li><a href="./array.md">[10장] 배열 (Array)</a></li>
+      <li><a href="./collections.md">[11장] 주요 컬렉션 클래스 비교</a> <code>#Collections</code></li>
+    </ul>
+  </div>
+</details>
+
+<details>
+  <summary><b>2. CLR 심층 분석 및 메모리 관리 (Memory & CLR)</b></summary>
+  <div style="padding-left: 20px; margin-top: 10px;">
+    <ul>
+      <li><a href="./clr-memory-structure.md"><b>[CLR 심층 분석]</b> CLR이 사용하는 메모리 구조</a> <code>#Stack</code> <code>#Heap</code></li>
+      <li><a href="./garbage-collection.md"><b>[CLR 심층 분석]</b> 가비지 컬렉션(GC) 원리</a> <code>#GC</code> <code>#LOH</code></li>
+      <li><a href="./clr-deep-dive.md"><b>[CLR 심층 분석]</b> CLR의 내부 동작 및 역할</a> <code>#Runtime</code></li>
+      <li><a href="./programming-basic-concepts.md">프로그래밍 기본 개념 정리</a></li>
+      <li><a href="./programming-history.md">프로그래밍 언어 역사</a></li>
+    </ul>
+  </div>
+</details>
+
+<details>
+  <summary><b>3. 비동기 프로그래밍 (Async & Concurrency)</b></summary>
+  <div style="padding-left: 20px; margin-top: 10px;">
+    <ul>
+      <li><a href="./async-sync-blocking-nonblocking.md">동기/비동기 개념 및 async/await</a> <code>#Async</code> <code>#Await</code></li>
+      <li><a href="./thread-basics.md">프로세스와 스레드(Thread)의 기본 개념</a> <code>#Concurrency</code></li>
+      <li><a href="./thread-synchronization.md">스레드 동기화(lock, Monitor) 기법</a> <code>#Lock</code></li>
+    </ul>
+  </div>
+</details>
+
+<details>
+  <summary><b>4. 고급 기능 및 메타 프로그래밍 (Advanced Features)</b></summary>
+  <div style="padding-left: 20px; margin-top: 10px;">
+    <ul>
+      <li><a href="./class-overview.md">[7장] 클래스 개요 (Class & Member)</a></li>
+      <li><a href="./inheritance-polymorphism.md">[7장] 상속, 다형성 및 OOP 키워드</a> <code>#OOP</code></li>
+      <li><a href="./struct-tuple.md">[7장] 구조체 및 튜플 (Struct & Tuple)</a></li>
+      <li><a href="./interface.md">[8장] 인터페이스 (Interface)</a> <code>#Interface</code></li>
+      <li><a href="./generic-programming.md">[12장] 제네릭(Generic)과 형식 제약</a> <code>#Generic</code></li>
+      <li><a href="./exception-handling.md">[14장] 예외 처리 (Exception Handling)</a></li>
+      <li><a href="./delegate.md">[13장] 대리자 (Delegate)</a> <code>#Callback</code></li>
+      <li><a href="./lambda-expression.md">[13장] 람다식 (Lambda Expression)</a></li>
+      <li><a href="./linq.md">[15장] LINQ (Language Integrated Query)</a> <code>#LINQ</code></li>
+      <li><a href="./reflection.md">[16장] 리플렉션 (Reflection)</a> <code>#Metadata</code></li>
+      <li><a href="./attribute.md">[16장] 애트리뷰트 (Attribute)</a></li>
+      <li><a href="./stream.md">[18장] 스트림 (Stream) 및 파일 I/O</a></li>
+    </ul>
+  </div>
+</details>
+
+---
+
+## 🛠️ 실무 트러블슈팅 인덱스 (Quick Link)
+*문제 상황에 맞는 글을 빠르게 찾아보세요.*
+
+- **메모리 누수가 의심될 때:** [CLR 메모리 구조](./clr-memory-structure.md), [가비지 컬렉션 원리](./garbage-collection.md)
+- **성능 최적화가 필요할 때:** [박싱/언박싱 최소화](./object-boxing-unboxing.md), [LINQ 활용](./linq.md)
+- **비동기 데드락 발생 시:** [async/await 개념](./async-sync-blocking-nonblocking.md)
+
+---
+<div align="center">
+  <span style="color: #666;">© 2026 rhdms0327 Backend Basecamp. All rights reserved.</span>
+</div>
