@@ -4,6 +4,7 @@ title: "🎯 암시적 형식 지역 변수 (Implicitly Typed - var)"
 date: 2026-04-29
 categories: [C#]
 tags: [암시적형식, 문법, C#]
+nav_exclude: true
 ---
 
 # 🎯 암시적 형식 지역 변수 (Implicitly Typed)
@@ -20,6 +21,7 @@ tags: [암시적형식, 문법, C#]
 - **코드 간결성**: `Dictionary<int, List<string>>`과 같이 타입 이름이 매우 길 때 가독성을 획기적으로 개선합니다.
 
 ## 3. 사용 예시
+
 ```csharp
 // i는 int 타입으로 확정됨
 var i = 5;

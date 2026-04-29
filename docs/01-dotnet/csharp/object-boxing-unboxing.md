@@ -4,6 +4,7 @@ title: "🎯 [3장] object 형식과 박싱/언박싱"
 date: 2026-04-29
 categories: [C#]
 tags: [C#, 메모리]
+nav_exclude: true
 ---
 
 > - C#의 모든 데이터 형식은 최종적으로 `System.Object`를 상속받습니다.

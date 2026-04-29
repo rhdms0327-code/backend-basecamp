@@ -4,6 +4,7 @@ title: "🎯 [.NET 분석] .NET 용어 정리"
 date: 2026-04-29
 categories: [C#]
 tags: [.NET, 용어정리, C#]
+nav_exclude: true
 ---
 
 # 🎯 [.NET 분석] .NET 용어 정리

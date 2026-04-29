@@ -4,6 +4,7 @@ title: "🎯 [18장] 스트림 (Stream)"
 date: 2026-04-29
 categories: [C#]
 tags: [메모리, C#]
+nav_exclude: true
 ---
 
 > - 데이터를 연속적인 바이트(Byte)의 흐름으로 취급하는 방식입니다.

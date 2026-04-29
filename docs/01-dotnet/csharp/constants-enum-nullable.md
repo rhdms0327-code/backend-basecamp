@@ -4,6 +4,7 @@ title: "🎯 [3장] 상수, 열거형, Nullable"
 date: 2026-04-29
 categories: [C#]
 tags: [데이터형식, 문법, C#]
+nav_exclude: true
 ---
 
 # 🎯 [3장] 상수, 열거형, Nullable
@@ -17,6 +18,7 @@ tags: [데이터형식, 문법, C#]
 ## 2. 열거형 (Enum)
 - 연관된 상수의 집합을 정의하는 값 형식입니다.
 - 기본적으로 `int` 형식을 가지며, 각 요소에 의미 있는 이름을 부여하여 코드 가독성과 유지보수성을 높입니다.
+
 ```csharp
 enum DialogResult { Yes, No, Cancel }
 ```
@@ -31,6 +33,7 @@ enum DialogResult { Yes, No, Cancel }
 
 ## 4. Null 병합 연산자 (??)
 - 변수가 `null`인 경우 사용할 기본값을 간결하게 지정합니다.
+
 ```csharp
 int? a = null;
 int b = a ?? 0; // a가 null이면 0을 할당하고, 아니면 a의 값을 할당

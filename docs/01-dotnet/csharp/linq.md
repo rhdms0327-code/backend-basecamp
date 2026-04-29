@@ -4,6 +4,7 @@ title: "🎯 [15장] LINQ (Language Integrated Query)"
 date: 2026-04-29
 categories: [C#]
 tags: [문법, LINQ, C#]
+nav_exclude: true
 ---
 
 # 🎯 [15장] LINQ (Language Integrated Query)

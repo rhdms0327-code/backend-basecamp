@@ -4,6 +4,7 @@ title: "🎯 [8장] 인터페이스 (Interface)"
 date: 2026-04-29
 categories: [C#]
 tags: [객체지향, 인터페이스, C#]
+nav_exclude: true
 ---
 
 # 🎯 [8장] 인터페이스 (Interface)

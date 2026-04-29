@@ -4,6 +4,7 @@ title: "🎯 [7장] 상속 및 다형성 (Inheritance & Polymorphism)"
 date: 2026-04-29
 categories: [C#]
 tags: [객체지향, 상속, C#]
+nav_exclude: true
 ---
 
 # 🎯 [7장] 상속 및 다형성 (Inheritance & Polymorphism)

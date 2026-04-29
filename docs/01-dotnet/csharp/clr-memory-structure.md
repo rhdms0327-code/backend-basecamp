@@ -4,6 +4,7 @@ title: "🎯 [CLR 심층 분석] CLR이 사용하는 메모리 구조"
 date: 2026-04-29
 categories: [C#]
 tags: [CLR, 메모리관리, C#]
+nav_exclude: true
 ---
 
 # 🎯 [CLR 심층 분석] CLR이 사용하는 메모리 구조

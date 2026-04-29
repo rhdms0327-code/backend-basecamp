@@ -4,6 +4,7 @@ title: "🎯 [2장] Hello World 코드 분석"
 date: 2026-04-29
 categories: [C#]
 tags: [문법, 헬로월드, C#]
+nav_exclude: true
 ---
 
 # 🎯 [2장] Hello World 코드 분석

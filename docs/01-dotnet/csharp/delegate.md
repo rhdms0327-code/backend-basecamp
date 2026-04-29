@@ -4,6 +4,7 @@ title: "🎯 [13장] 대리자 (Delegate)"
 date: 2026-04-29
 categories: [C#]
 tags: [대리자, 문법, C#]
+nav_exclude: true
 ---
 
 # 🎯 [13장] 대리자 (Delegate)
@@ -21,6 +22,7 @@ tags: [대리자, 문법, C#]
 - **함수형 스타일**: 메서드를 데이터처럼 취급하여 보다 유연한 소프트웨어 아키텍처를 구현할 수 있습니다.
 
 ## 3. 선언 및 사용
+
 ```csharp
 // 1. 대리자 선언 (반환 타입과 매개변수 시그니처 정의)
 public delegate void MyDelegate(string message);

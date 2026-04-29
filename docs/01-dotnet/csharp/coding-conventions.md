@@ -4,6 +4,7 @@ title: "🎯 C# 코딩 규칙 (Coding Conventions)"
 date: 2026-04-29
 categories: [C#]
 tags: [코딩규칙, 클린코드, C#]
+nav_exclude: true
 ---
 
 # 🎯 C# 코딩 규칙 (Coding Conventions)

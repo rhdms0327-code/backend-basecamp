@@ -4,6 +4,7 @@ title: "🎯 C# 언어 버전 관리"
 date: 2026-04-29
 categories: [C#]
 tags: [C#, 버전관리]
+nav_exclude: true
 ---
 
 # 🎯 C# 언어 버전 관리
@@ -16,11 +17,13 @@ tags: [C#, 버전관리]
 
 ## 2. 수동 설정 방법 (.csproj)
 특정 버전을 강제해야 하는 경우 프로젝트 파일(`.csproj`)에서 설정할 수 있습니다.
+
 ```xml
 <PropertyGroup>
   <LangVersion>latest</LangVersion>
 </PropertyGroup>
 ```
+
 - **latest**: 설치된 SDK에서 지원하는 최신 안정 버전.
 - **preview**: 미리 보기 버전 기능을 포함한 최신 버전.
 - **10.0, 11.0...**: 특정 버전을 명시.

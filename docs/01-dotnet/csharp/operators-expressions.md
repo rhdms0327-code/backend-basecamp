@@ -4,6 +4,7 @@ title: "🎯 [5장] 연산자, 식, 문 개요"
 date: 2026-04-29
 categories: [C#]
 tags: [C#]
+nav_exclude: true
 ---
 
 > - **연산자 (Operator)**: 동작을 수행하도록 지시하는 기호나 키워드 (예: `+`, `is`, `new`).

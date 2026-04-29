@@ -4,6 +4,7 @@ title: "🧠 [19장] 스레드 기본 개념 (Process vs Thread)"
 date: 2026-04-29
 categories: [C#]
 tags: [C#, 메모리]
+nav_exclude: true
 ---
 
 > 운영체제로부터 자원을 할당받은 **실행 중인 프로그램의 인스턴스**입니다.
@@ -26,6 +27,7 @@ tags: [C#, 메모리]
 4. **Heap**: 동적으로 생성된 객체 (GC가 관리).
 
 ## 4. C#에서 스레드 사용하기
+
 ```csharp
 using System.Threading;
 

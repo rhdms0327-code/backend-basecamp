@@ -4,6 +4,7 @@ title: "🎯 [7장] 구조체 및 튜플 (Struct & Tuple)"
 date: 2026-04-29
 categories: [C#]
 tags: [C#]
+nav_exclude: true
 ---
 
 > - 데이터를 캡슐화할 수 있는 **값 형식(Value Type)**입니다.
@@ -14,6 +15,7 @@ tags: [C#]
   - 작은 크기의 불변 데이터를 다룰 때 성능상 유리합니다.
 
 ## 🧱 2. 구조체 vs 클래스
+
 | 특징 | 구조체 (Struct) | 클래스 (Class) |
 | :--- | :--- | :--- |
 | **타입** | 값 형식 (Value Type) | 참조 형식 (Reference Type) |

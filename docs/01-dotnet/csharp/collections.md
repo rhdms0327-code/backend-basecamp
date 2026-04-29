@@ -4,6 +4,7 @@ title: "🎯 [10장] 자료구조 (컬렉션 - Collections)"
 date: 2026-04-29
 categories: [C#]
 tags: [자료구조, 컬렉션, C#]
+nav_exclude: true
 ---
 
 # 🎯 [10장] 자료구조 (컬렉션 - Collections)
@@ -22,6 +23,7 @@ tags: [자료구조, 컬렉션, C#]
 - **HashSet<T>**: 중복을 허용하지 않는 유일한 요소들의 집합입니다.
 
 ## 3. 배열 vs 컬렉션
+
 | 구분 | 배열 (Array) | 컬렉션 (Collection) |
 | :--- | :--- | :--- |
 | **크기** | 고정 크기 | 가변 크기 (동적 조절) |

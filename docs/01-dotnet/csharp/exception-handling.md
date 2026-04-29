@@ -4,6 +4,7 @@ title: "🎯 [12장] 예외 처리 (Exception Handling)"
 date: 2026-04-29
 categories: [C#]
 tags: [예외처리, 문법, C#]
+nav_exclude: true
 ---
 
 # 🎯 [12장] 예외 처리 (Exception Handling)

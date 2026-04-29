@@ -4,6 +4,7 @@ title: "🎯 [.NET 분석] .NET Framework 설치 가이드"
 date: 2026-04-29
 categories: [C#]
 tags: [.NET, 환경설정, C#]
+nav_exclude: true
 ---
 
 # 🎯 [.NET 분석] .NET Framework 설치 가이드

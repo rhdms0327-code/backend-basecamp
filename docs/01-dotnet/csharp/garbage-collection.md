@@ -4,6 +4,7 @@ title: "⚡ [22장] 가비지 컬렉션 (Garbage Collection)"
 date: 2026-04-29
 categories: [C#]
 tags: [메모리관리, C#, 성능최적화, 가비지컬렉션]
+nav_exclude: true
 ---
 
 # ⚡ [22장] 가비지 컬렉션 (Garbage Collection)

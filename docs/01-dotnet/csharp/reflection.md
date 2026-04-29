@@ -4,6 +4,7 @@ title: "🎯 [16장] 리플렉션 (Reflection)"
 date: 2026-04-29
 categories: [C#]
 tags: [C#]
+nav_exclude: true
 ---
 
 > - 프로그램이 실행 중(런타임)에 **자신의 구조를 스스로 조사하고 조작**하는 메커니즘입니다.

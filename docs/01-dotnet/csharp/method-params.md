@@ -4,6 +4,7 @@ title: "🎯 [6장] 메서드 매개변수 (ref, out)"
 date: 2026-04-29
 categories: [C#]
 tags: [C#, 메모리]
+nav_exclude: true
 ---
 
 > - **값에 의한 전달 (Pass by Value)**: 매개변수의 값을 복사하여 전달합니다. 메서드 내부에서 값을 바꿔도 원본은 변하지 않습니다. (C#의 기본값)

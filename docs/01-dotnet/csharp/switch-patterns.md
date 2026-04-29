@@ -4,10 +4,10 @@ title: "🎯 [5장] switch 패턴 매칭 (버전별 정리)"
 date: 2026-04-29
 categories: [C#]
 tags: [C#]
+nav_exclude: true
 ---
 
 > C# 버전이 올라감에 따라 `switch`는 단순한 분기문을 넘어 강력한 패턴 매칭 도구로 진화했습니다.
-
 
 ## 1. C# 7.0: switch 문 강화
 - **형식 패턴**: `case int i:` 처럼 타입에 따른 분기가 가능해졌습니다.
@@ -15,6 +15,7 @@ tags: [C#]
 
 ## 2. C# 8.0: switch 식 (Expression)
 문장이 아닌 **결과값을 반환하는 식**으로 사용할 수 있게 되었습니다.
+
 ```csharp
 string result = color switch
 {

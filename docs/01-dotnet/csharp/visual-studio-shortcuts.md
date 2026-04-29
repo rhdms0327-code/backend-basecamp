@@ -4,10 +4,10 @@ title: "🎯 Visual Studio 단축키 모음"
 date: 2026-04-29
 categories: [C#]
 tags: [C#]
+nav_exclude: true
 ---
 
 > 개발 생산성을 높여주는 필수 단축키들을 정리했습니다.
-
 
 ## 1. 기본 조작
 - **Ctrl + Q**: 모든 명령 검색 (핵심!)

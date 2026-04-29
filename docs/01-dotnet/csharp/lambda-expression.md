@@ -4,6 +4,7 @@ title: "🎯 [14장] 람다식 (Lambda Expression)"
 date: 2026-04-29
 categories: [C#]
 tags: [람다, 문법, C#]
+nav_exclude: true
 ---
 
 # 🎯 [14장] 람다식 (Lambda Expression)
@@ -15,9 +16,11 @@ tags: [람다, 문법, C#]
 - **대리자(Delegate)**나 **LINQ**와 결합하여 함수형 프로그래밍 스타일을 구현하는 핵심 기술입니다.
 
 ## 🎯 2. 문법
+
 ```csharp
 (매개변수_목록) => 식_또는_문장_블록
 ```
+
 - **=> (람다 연산자)**: "Goes to" 연산자라고 부르며, 입력값을 로직으로 전달하는 통로 역할을 합니다.
 
 ## 3. 주요 특징

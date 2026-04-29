@@ -4,10 +4,10 @@ title: "🧵 [19장] 스레드 동기화 (Thread Synchronization)"
 date: 2026-04-29
 categories: [C#]
 tags: [C#, 메모리]
+nav_exclude: true
 ---
 
 > 여러 스레드가 동일한 자원(메모리, 파일 등)에 동시에 접근할 때 데이터가 오염되지 않도록 순서를 제어하는 기술입니다.
-
 
 ## 1. 주요 개념
 - **경합 조건 (Race Condition)**: 여러 스레드가 동시에 데이터를 수정하려고 경쟁하는 상황.
@@ -28,6 +28,7 @@ public void SafeMethod()
     }
 }
 ```
+
 - **왜 object인가?**: C#의 모든 객체는 내부에 '싱크 블록'이라는 자물쇠 정보를 기록할 공간을 가지고 있기 때문입니다.
 - **주의**: `lock(this)`나 `lock(typeof(Class))`는 공용 자원을 잠그는 행위로 **교착 상태(Deadlock)** 위험이 크므로 전용 전용 `private object`를 사용하세요.
 

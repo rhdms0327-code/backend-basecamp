@@ -4,6 +4,7 @@ title: "🎯 [9장] 프로퍼티 (Property)"
 date: 2026-04-29
 categories: [C#]
 tags: [C#]
+nav_exclude: true
 ---
 
 > - 필드에 대한 접근자(`get`, `set`)를 제공하여 데이터를 캡슐화하고 관리하는 C#의 기능입니다.
@@ -12,6 +13,7 @@ tags: [C#]
 
 ## 2. 자동 구현 프로퍼티 (Auto-Implemented Property)
 별도의 백킹 필드(private 변수)를 선언하지 않고 컴파일러가 자동으로 생성하게 하는 방식입니다.
+
 ```csharp
 public class User
 {

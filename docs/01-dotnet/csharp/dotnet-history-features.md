@@ -4,6 +4,7 @@ title: "🎯 [.NET 분석] .NET의 역사와 주요 특징"
 date: 2026-04-29
 categories: [C#]
 tags: [.NET, 역사, C#]
+nav_exclude: true
 ---
 
 # 🎯 [.NET 분석] .NET의 역사와 주요 특징

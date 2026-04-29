@@ -4,6 +4,7 @@ title: "🎯 [7장] 클래스 및 멤버 개요 (Class & Members)"
 date: 2026-04-29
 categories: [C#]
 tags: [객체지향, 클래스, C#]
+nav_exclude: true
 ---
 
 # 🎯 [7장] 클래스 및 멤버 개요 (Class & Members)

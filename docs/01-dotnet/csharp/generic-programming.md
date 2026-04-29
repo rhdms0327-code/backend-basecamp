@@ -4,6 +4,7 @@ title: "🎯 [11장] 일반화 프로그래밍 (Generic Programming)"
 date: 2026-04-29
 categories: [C#]
 tags: [제네릭, 문법, C#]
+nav_exclude: true
 ---
 
 # 🎯 [11장] 일반화 프로그래밍 (Generic Programming)
@@ -20,6 +21,7 @@ tags: [제네릭, 문법, C#]
 - **성능**: `object` 기반의 범용 프로그래밍에서 발생하는 **박싱/언박싱** 부하가 전혀 없어 매우 빠릅니다.
 
 ## 3. 사용 예시
+
 ```csharp
 // 일반화 메서드: 어떤 타입이든 값 교환 가능
 public void Swap<T>(ref T a, ref T b)
