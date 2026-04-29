@@ -1,5 +1,5 @@
 ---
-title: 01. .NET
+title: .NET
 has_children: true
 nav_order: 2
 ---

@@ -1,5 +1,5 @@
 ---
-title: 02. Architecture
+title: Architecture
 has_children: true
 nav_order: 3
 ---
