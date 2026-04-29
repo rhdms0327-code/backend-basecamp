@@ -2,6 +2,7 @@
 title: "[.NET 분석] .NET의 역사와 주요 특징"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 36
 ---
 

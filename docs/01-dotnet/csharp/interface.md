@@ -2,6 +2,7 @@
 title: "[8장] 인터페이스 (Interface)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 19
 ---
 

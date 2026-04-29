@@ -2,6 +2,7 @@
 title: "[CLR 심층 분석] CLR 관련 개념 정리"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 1
 ---
 

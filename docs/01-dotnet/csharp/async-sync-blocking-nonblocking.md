@@ -2,6 +2,7 @@
 title: "[19장] 동기 / 비동기 / 블로킹 / 논블로킹"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 5
 ---
 

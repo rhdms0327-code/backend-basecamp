@@ -2,6 +2,7 @@
 title: "[3장] object 형식과 박싱/언박싱"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 30
 ---
 

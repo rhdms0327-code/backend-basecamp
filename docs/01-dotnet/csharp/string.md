@@ -2,6 +2,7 @@
 title: "[3장] 문자열 (String)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 28
 ---
 

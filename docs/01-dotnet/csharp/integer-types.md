@@ -2,6 +2,7 @@
 title: "[3장] 정수 계열 (Integer Type)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 33
 ---
 

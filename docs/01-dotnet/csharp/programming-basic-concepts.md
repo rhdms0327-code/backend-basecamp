@@ -2,6 +2,7 @@
 title: "[1장] 프로그래밍 기본 개념"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 43
 ---
 

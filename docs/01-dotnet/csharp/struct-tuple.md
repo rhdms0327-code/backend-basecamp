@@ -2,6 +2,7 @@
 title: "[7장] 구조체 및 튜플 (Struct & Tuple)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 20
 ---
 

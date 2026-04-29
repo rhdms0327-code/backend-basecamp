@@ -2,6 +2,7 @@
 title: "[2장] Hello World 코드 분석"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 39
 ---
 

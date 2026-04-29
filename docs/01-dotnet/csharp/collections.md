@@ -2,6 +2,7 @@
 title: "[10장] 자료구조 (컬렉션 - Collections)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 16
 ---
 

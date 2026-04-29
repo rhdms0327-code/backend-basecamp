@@ -2,6 +2,7 @@
 title: "[3장] 문자 및 논리 형식 (Char & Bool)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 31
 ---
 

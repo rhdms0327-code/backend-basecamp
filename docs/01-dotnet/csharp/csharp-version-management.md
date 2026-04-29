@@ -2,6 +2,7 @@
 title: "C# 언어 버전 관리"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 27
 ---
 

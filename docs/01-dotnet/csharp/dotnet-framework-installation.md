@@ -2,6 +2,7 @@
 title: "[.NET 분석] .NET Framework 설치 가이드"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 35
 ---
 

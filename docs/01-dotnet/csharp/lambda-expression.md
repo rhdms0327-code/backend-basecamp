@@ -2,6 +2,7 @@
 title: "[14장] 람다식 (Lambda Expression)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 12
 ---
 

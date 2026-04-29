@@ -2,6 +2,7 @@
 title: "Visual Studio 단축키 모음"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 34
 ---
 

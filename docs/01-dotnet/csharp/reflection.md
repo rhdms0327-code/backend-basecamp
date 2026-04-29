@@ -2,6 +2,7 @@
 title: "[16장] 리플렉션 (Reflection)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 10
 ---
 

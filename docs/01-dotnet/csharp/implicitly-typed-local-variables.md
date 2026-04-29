@@ -2,6 +2,7 @@
 title: "암시적 형식 지역 변수 (Implicitly Typed - var)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 3
 ---
 

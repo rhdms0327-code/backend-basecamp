@@ -2,6 +2,7 @@
 title: "[10장] 배열 (Array)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 17
 ---
 

@@ -2,6 +2,7 @@
 title: "[16장] 애트리뷰트 (Attribute)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 9
 ---
 

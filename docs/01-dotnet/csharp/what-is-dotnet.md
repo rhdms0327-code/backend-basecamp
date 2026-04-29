@@ -2,6 +2,7 @@
 title: "[.NET 분석] .NET이란 무엇인가?"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 38
 ---
 

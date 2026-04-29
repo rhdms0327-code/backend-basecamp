@@ -2,6 +2,7 @@
 title: "[13장] 대리자 (Delegate)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 13
 ---
 

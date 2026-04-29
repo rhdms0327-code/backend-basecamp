@@ -2,6 +2,7 @@
 title: "[22장] 가비지 컬렉션 (Garbage Collection)"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 2
 ---
 

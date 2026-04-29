@@ -2,6 +2,7 @@
 title: "[2장] Hello World 프로젝트 생성"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 40
 ---
 

@@ -2,6 +2,7 @@
 title: "[3장] 상수, 열거형, Nullable"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 29
 ---
 

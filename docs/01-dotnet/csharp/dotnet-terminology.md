@@ -2,6 +2,7 @@
 title: "[.NET 분석] .NET 용어 정리"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 37
 ---
 

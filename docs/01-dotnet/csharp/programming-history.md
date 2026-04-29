@@ -2,6 +2,7 @@
 title: "[1장] 프로그래밍 언어의 역사"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 42
 ---
 

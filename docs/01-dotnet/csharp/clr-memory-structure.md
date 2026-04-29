@@ -2,6 +2,7 @@
 title: "[CLR 심층 분석] CLR이 사용하는 메모리 구조"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 4
 ---
 

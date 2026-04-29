@@ -2,6 +2,7 @@
 title: "[3장] 부동 소수점 숫자 형식"
 parent: C#
 grand_parent: .NET
+nav_exclude: true
 nav_order: 32
 ---
 
