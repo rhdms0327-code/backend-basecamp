@@ -7,11 +7,19 @@ nav_order: 1
 ---
 
 # 🎯 C# 10
-> **참고 서적:** [이것이 C#이다 (yes24 링크)](https://www.yes24.com/product/goods/118685906)
-> - **대상 버전:** C# 10.0 (.NET 6)
-> - **학습 목표:** C# 최신 문법과 CLR의 심층적인 내부 동작 원리를 체계적으로 학습합니다.
+
+> C# 최신 문법과 CLR의 심층적인 내부 동작 원리를 체계적으로 학습합니다.
 
 ---
+
+## 📑 참고서적
+
+| 도서명 | 핵심 키워드 | 링크 |
+| :--- | :--- | :--- |
+| **이것이 C#이다** | `C# 10.0` `.NET 6` `CLR` | [YES24 상세정보](https://www.yes24.com/product/goods/118685906) |
+
+---
+
 ## 📂 리스트 (총 42건)
 
 ### 🚀 들어가며: .NET 개요와 환경 설정
@@ -87,6 +95,5 @@ nav_order: 1
 | **[🎯 C# 코딩 규칙 (Coding Conventions)](./docs/coding-conventions.md)** | `코딩규칙` `클린코드` |
 
 ---
-<div align="center">
-  <span style="color: #666;">© 2026 rhdms0327 Backend Basecamp. All rights reserved.</span>
-</div>
+
+© 2026 rhdms0327 Backend Basecamp. All rights reserved.
