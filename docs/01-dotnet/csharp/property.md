@@ -1,7 +1,7 @@
 ---
 title: "[9장] 프로퍼티 (Property)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 18
 ---
 

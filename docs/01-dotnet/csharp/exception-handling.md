@@ -1,7 +1,7 @@
 ---
 title: "[12장] 예외 처리 (Exception Handling)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 14
 ---
 

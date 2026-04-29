@@ -1,7 +1,7 @@
 ---
 title: "[8장] 인터페이스 (Interface)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 19
 ---
 

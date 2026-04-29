@@ -1,7 +1,7 @@
 ---
 title: "[19장] 스레드 기본 개념 (Process vs Thread)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 7
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "[18장] 스트림 (Stream)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 8
 ---
 

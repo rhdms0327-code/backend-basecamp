@@ -1,7 +1,7 @@
 ---
 title: "C# 코딩 규칙 (Coding Conventions)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 26
 ---
 

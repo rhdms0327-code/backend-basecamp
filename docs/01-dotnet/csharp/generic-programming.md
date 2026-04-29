@@ -1,7 +1,7 @@
 ---
 title: "[11장] 일반화 프로그래밍 (Generic Programming)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 15
 ---
 

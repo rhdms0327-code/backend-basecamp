@@ -1,7 +1,7 @@
 ---
 title: "[5장] switch 패턴 매칭 (버전별 정리)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 25
 ---
 

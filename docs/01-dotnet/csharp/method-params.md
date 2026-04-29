@@ -1,7 +1,7 @@
 ---
 title: "[6장] 메서드 매개변수 (ref, out)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 23
 ---
 

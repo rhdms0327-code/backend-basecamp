@@ -1,7 +1,7 @@
 ---
 title: "[3장] 문자열 (String)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 28
 ---
 

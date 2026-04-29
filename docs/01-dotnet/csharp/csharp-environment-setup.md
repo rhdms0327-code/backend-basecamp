@@ -1,7 +1,7 @@
 ---
 title: "[1장] C# 파일 구조 및 환경 설정"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 41
 ---
 

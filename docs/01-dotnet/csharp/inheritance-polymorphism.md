@@ -1,7 +1,7 @@
 ---
 title: "[7장] 상속 및 다형성 (Inheritance & Polymorphism)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 21
 ---
 

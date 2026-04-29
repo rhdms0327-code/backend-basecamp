@@ -1,7 +1,7 @@
 ---
 title: "[15장] LINQ (Language Integrated Query)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 11
 ---
 

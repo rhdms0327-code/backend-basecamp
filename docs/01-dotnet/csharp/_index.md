@@ -17,6 +17,6 @@ nav_order: 1
 ---
 title: 글 제목
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 ---
 ```

@@ -1,7 +1,7 @@
 ---
 title: "[5장] 연산자, 식, 문 개요"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 24
 ---
 

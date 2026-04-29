@@ -1,7 +1,7 @@
 ---
 title: "[.NET 분석] .NET Framework 설치 가이드"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 35
 ---
 

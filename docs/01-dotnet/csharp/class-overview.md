@@ -1,7 +1,7 @@
 ---
 title: "[7장] 클래스 및 멤버 개요 (Class & Members)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 22
 ---
 

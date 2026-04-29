@@ -1,7 +1,7 @@
 ---
 title: "[19장] 스레드 동기화 (Thread Synchronization)"
 parent: C#
-grand_parent: 01. .NET
+grand_parent: .NET
 nav_order: 6
 ---
 
