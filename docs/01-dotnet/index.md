@@ -1,9 +1,8 @@
 ---
-title: .NET
+layout: page
+title: ".NET"
 has_children: true
-nav_order: 2
+nav_order: 1
 ---
 
-# 🚀 .NET 플랫폼 및 기술 스택
-
-.NET 플랫폼 및 관련 기술 스택에 대한 학습 기록입니다.
+# .NET
