@@ -93,7 +93,3 @@ nav_order: 1
 | **[🎯 [CLR 심층 분석] CLR이 사용하는 메모리 구조](./docs/clr-memory-structure.md)** | `CLR` `메모리관리` |
 | **[🎯 [CLR 심층 분석] CLR 관련 개념 정리](./docs/clr-deep-dive.md)** | `CLR` `런타임` |
 | **[🎯 C# 코딩 규칙 (Coding Conventions)](./docs/coding-conventions.md)** | `코딩규칙` `클린코드` |
-
----
-
-© 2026 rhdms0327 Backend Basecamp. All rights reserved.
