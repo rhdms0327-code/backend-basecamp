@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [7장] 구조체 및 튜플 (Struct & Tuple)"
 date: 2026-04-29
 categories: [C#]
-tags: [C#]
+tags: []
 nav_exclude: true
 ---
 

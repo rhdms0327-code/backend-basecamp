@@ -3,7 +3,7 @@ layout: post
 title: "🎯 C# 언어 버전 관리"
 date: 2026-04-29
 categories: [C#]
-tags: [C#, 버전관리]
+tags: [버전관리]
 nav_exclude: true
 ---
 

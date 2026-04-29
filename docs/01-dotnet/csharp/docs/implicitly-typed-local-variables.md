@@ -3,7 +3,7 @@ layout: post
 title: "🎯 암시적 형식 지역 변수 (Implicitly Typed - var)"
 date: 2026-04-29
 categories: [C#]
-tags: [암시적형식, 문법, C#]
+tags: [암시적형식]
 nav_exclude: true
 ---
 

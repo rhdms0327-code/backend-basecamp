@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [10장] 자료구조 (컬렉션 - Collections)"
 date: 2026-04-29
 categories: [C#]
-tags: [자료구조, 컬렉션, C#]
+tags: [자료구조, 컬렉션]
 nav_exclude: true
 ---
 

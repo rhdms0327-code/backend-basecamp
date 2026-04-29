@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [3장] 상수, 열거형, Nullable"
 date: 2026-04-29
 categories: [C#]
-tags: [데이터형식, 문법, C#]
+tags: []
 nav_exclude: true
 ---
 

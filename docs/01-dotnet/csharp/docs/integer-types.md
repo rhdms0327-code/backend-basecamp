@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [3장] 정수 계열 (Integer Type)"
 date: 2026-04-29
 categories: [C#]
-tags: [정수형, 데이터형식, C#]
+tags: [정수형]
 nav_exclude: true
 ---
 

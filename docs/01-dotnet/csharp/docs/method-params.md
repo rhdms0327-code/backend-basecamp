@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [6장] 메서드 매개변수 (ref, out)"
 date: 2026-04-29
 categories: [C#]
-tags: [C#, 메모리]
+tags: [메모리]
 nav_exclude: true
 ---
 

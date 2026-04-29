@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [9장] 프로퍼티 (Property)"
 date: 2026-04-29
 categories: [C#]
-tags: [C#]
+tags: []
 nav_exclude: true
 ---
 

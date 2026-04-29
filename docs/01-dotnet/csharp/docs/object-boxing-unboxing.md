@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [3장] object 형식과 박싱/언박싱"
 date: 2026-04-29
 categories: [C#]
-tags: [C#, 메모리]
+tags: [메모리]
 nav_exclude: true
 ---
 

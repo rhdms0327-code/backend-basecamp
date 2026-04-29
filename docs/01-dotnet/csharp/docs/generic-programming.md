@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [11장] 일반화 프로그래밍 (Generic Programming)"
 date: 2026-04-29
 categories: [C#]
-tags: [제네릭, 문법, C#]
+tags: [제네릭]
 nav_exclude: true
 ---
 

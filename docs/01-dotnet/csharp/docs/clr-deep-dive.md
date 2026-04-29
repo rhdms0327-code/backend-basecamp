@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [CLR 심층 분석] CLR 관련 개념 정리"
 date: 2026-04-29
 categories: [C#]
-tags: [CLR, 런타임, C#]
+tags: [CLR, 런타임]
 nav_exclude: true
 ---
 

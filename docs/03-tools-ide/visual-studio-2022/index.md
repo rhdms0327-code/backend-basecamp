@@ -12,4 +12,4 @@ nav_order: 1
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[[C#] 🎯 Visual Studio 단축키 모음](./docs/visual-studio-shortcuts.md)** | `C#` |
+| **[[C#] 🎯 Visual Studio 단축키 모음](./docs/visual-studio-shortcuts.md)** |  |

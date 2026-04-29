@@ -3,7 +3,7 @@ layout: post
 title: "🧠 [10장] 배열 (Array)"
 date: 2026-04-29
 categories: [C#]
-tags: [배열, C#, 컬렉션]
+tags: [배열, 컬렉션]
 nav_exclude: true
 ---
 

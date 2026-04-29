@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [18장] 스트림 (Stream)"
 date: 2026-04-29
 categories: [C#]
-tags: [메모리, C#]
+tags: [메모리]
 nav_exclude: true
 ---
 

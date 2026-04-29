@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [1장] C# 파일 구조 및 환경 설정"
 date: 2026-04-29
 categories: [C#]
-tags: [C#, 환경설정]
+tags: []
 nav_exclude: true
 ---
 

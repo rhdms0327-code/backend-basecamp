@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [3장] 부동 소수점 숫자 형식"
 date: 2026-04-29
 categories: [C#]
-tags: [정밀도, 데이터형식, C#]
+tags: [정밀도]
 nav_exclude: true
 ---
 

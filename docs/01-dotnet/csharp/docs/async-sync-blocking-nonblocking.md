@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [19장] 동기 / 비동기 / 블로킹 / 논블로킹"
 date: 2026-04-29
 categories: [C#]
-tags: [병렬처리, 비동기, C#]
+tags: [병렬처리, 비동기]
 nav_exclude: true
 ---
 

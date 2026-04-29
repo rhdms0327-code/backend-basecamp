@@ -3,7 +3,7 @@ layout: post
 title: "🔍 [.NET 분석] .NET이란 무엇인가?"
 date: 2026-04-29
 categories: [C#]
-tags: [C#]
+tags: []
 nav_exclude: true
 ---
 

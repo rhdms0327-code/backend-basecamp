@@ -3,7 +3,7 @@ layout: post
 title: "🧵 [19장] 스레드 동기화 (Thread Synchronization)"
 date: 2026-04-29
 categories: [C#]
-tags: [C#, 메모리]
+tags: [메모리]
 nav_exclude: true
 ---
 

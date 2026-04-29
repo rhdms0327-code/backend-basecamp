@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [5장] switch 패턴 매칭 (버전별 정리)"
 date: 2026-04-29
 categories: [C#]
-tags: [C#]
+tags: []
 nav_exclude: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [8장] 인터페이스 (Interface)"
 date: 2026-04-29
 categories: [C#]
-tags: [객체지향, 인터페이스, C#]
+tags: [객체지향, 인터페이스]
 nav_exclude: true
 ---
 

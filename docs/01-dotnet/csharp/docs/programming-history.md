@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [1장] 프로그래밍 언어의 역사"
 date: 2026-04-29
 categories: [C#]
-tags: [C#]
+tags: []
 nav_exclude: true
 ---
 

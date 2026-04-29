@@ -3,7 +3,7 @@ layout: post
 title: "🎯 Visual Studio 단축키 모음"
 date: 2026-04-29
 categories: [Visual Studio 2022]
-tags: [Visual Studio, 단축키]
+tags: [단축키]
 nav_exclude: true
 ---
 

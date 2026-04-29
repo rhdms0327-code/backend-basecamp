@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [13장] 대리자 (Delegate)"
 date: 2026-04-29
 categories: [C#]
-tags: [대리자, 문법, C#]
+tags: [대리자]
 nav_exclude: true
 ---
 

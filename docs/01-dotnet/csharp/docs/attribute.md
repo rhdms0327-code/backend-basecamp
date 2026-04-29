@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [16장] 애트리뷰트 (Attribute)"
 date: 2026-04-29
 categories: [C#]
-tags: [메타데이터, 애트리뷰트, C#]
+tags: [메타데이터, 애트리뷰트]
 nav_exclude: true
 ---
 

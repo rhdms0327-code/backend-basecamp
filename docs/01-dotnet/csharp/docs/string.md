@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [3장] 문자열 (String)"
 date: 2026-04-29
 categories: [C#]
-tags: [배열, C#]
+tags: [배열]
 nav_exclude: true
 ---
 

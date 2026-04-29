@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [2장] Hello World 프로젝트 생성"
 date: 2026-04-29
 categories: [C#]
-tags: [환경설정, 헬로월드, C#]
+tags: []
 nav_exclude: true
 ---
 

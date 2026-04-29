@@ -3,7 +3,7 @@ layout: post
 title: "🎯 [14장] 람다식 (Lambda Expression)"
 date: 2026-04-29
 categories: [C#]
-tags: [람다, 문법, C#]
+tags: [람다]
 nav_exclude: true
 ---
 
