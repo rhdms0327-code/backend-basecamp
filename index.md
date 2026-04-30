@@ -13,20 +13,11 @@ nav_exclude: true
 
 ## 📍 Now
 
-> 🚨 **IMPORTANT**
 > ### Sprint 1: API 기초 (05/04 ~ 05/17)
 > * **진행률**: 20% ▓▓░░░░░░░░
 > * **상태**: 타 업무 종료 후 04/20 조기 착수 🏃♂️
 > * **목표**: 현대적 API 아키텍처 이해
-
----
-
-## 🗺️ 여정의 지도
-
-* **기록 📂** : 과거의 맥락을 읽고 꼼꼼하게 남기기
-* **정제 🧼** : 복잡하게 꼬인 로직을 풀고 깨끗하게 만들기
-* **기준 📏** : 나만의 규칙으로 길 위에 이정표 세우기
-* **배움 💡** : 여정에서 마주한 문제와 해결책 저장하기
+> * **링크**: [👉 진행 중인 학습 기록 바로가기](./docs/01-dotnet/minimal-api/index.md)
 
 ---
 
@@ -36,6 +27,7 @@ nav_exclude: true
 | :--- | :--- | :--- |
 | **Roadmap** | 🧭 2026 로드맵 | [확인](./docs/07-career/roadmap/docs/2026-roadmap.md) |
 | **Git** | ⚡ 깃 치트시트 | [확인](./docs/03-tools-ide/git/docs/git-commands.md) |
+| **VS Code** | 🧰 VS Code 단축키 | [확인](./docs/03-tools-ide/vscode/docs/04-vscode-shortcuts.md) |
 
 ---
 
