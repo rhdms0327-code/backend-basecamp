@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "⚡ [Rule] 작성 방법과 성능"
+title: "⚡ 작성 방법과 성능"
 date: 2026-02-05
 categories: [Antigravity]
 tags: [Rule, 최적화]

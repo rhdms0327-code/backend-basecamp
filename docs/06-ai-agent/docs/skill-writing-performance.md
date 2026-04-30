@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🚀 [Skill] 작성 방법 & 성능 극대화"
+title: "🚀 작성 방법 & 성능 극대화"
 date: 2026-02-05
 categories: [Antigravity]
 tags: [Skill, 최적화]

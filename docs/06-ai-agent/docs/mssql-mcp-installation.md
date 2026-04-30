@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🗄️ [MCP] MSSql MCP 설치 (Github)"
+title: "🗄️ MSSql MCP 설치 (Github)"
 date: 2026-01-30
 categories: [Antigravity]
 tags: [MCP, SQLServer]

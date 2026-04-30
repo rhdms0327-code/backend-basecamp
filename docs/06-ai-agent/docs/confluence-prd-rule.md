@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📝 [Rule/Skill] 기획서 컨플루언스 작성하기"
+title: "📝 기획서 컨플루언스 작성하기"
 date: 2026-02-05
 categories: [Antigravity]
 tags: [Rule, Skill, Confluence]
