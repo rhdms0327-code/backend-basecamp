@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Visual Studio 2022"
-parent: Tools & IDE
+parent: "Tools & IDE"
 has_children: true
 nav_order: 1
 ---
@@ -12,8 +12,10 @@ nav_order: 1
 
 ---
 
-## 📂 리스트 (총 1건)
+## 📂 리스트 (총 3건)
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🎯 Visual Studio 단축키 모음](./docs/visual-studio-shortcuts.md)** |  |
+| **[🛠️ 설정 모음](./docs/settings.md)** | `설정` `CodeLens` |
+| **[🎯 C# 언어 버전 관리하기](./docs/csharp-version.md)** | `C#` `.NET` `버전관리` |
+| **[⚡ 단축키 모음](./docs/shortcuts.md)** | `단축키` `생산성` |
