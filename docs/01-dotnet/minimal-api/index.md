@@ -2,7 +2,7 @@
 layout: page
 title: "🚀 Minimal API"
 has_children: true
-parent: "🎯 .NET"
+parent: ".NET"
 nav_order: 2
 ---
 
