@@ -22,12 +22,9 @@ nav_exclude: true
 ---
 
 ## ⭐ 즐겨찾기
-
-| 구분 | 즐겨찾기 항목 | 링크 |
-| :--- | :--- | :--- |
-| **Roadmap** | 🧭 2026 로드맵 | [확인](./docs/07-career/roadmap/docs/2026-roadmap.md) |
-| **Git** | ⚡ 깃 치트시트 | [확인](./docs/03-tools-ide/git/docs/git-commands.md) |
-| **VS Code** | 🧰 VS Code 단축키 | [확인](./docs/03-tools-ide/vscode/docs/04-vscode-shortcuts.md) |
+- 🧭 [**2026 로드맵**](./docs/07-career/roadmap/docs/2026-roadmap.md)
+- ⚡ [**깃 치트시트**](./docs/03-tools-ide/git/docs/git-commands.md)
+- 🧰 [**VS Code 단축키**](./docs/03-tools-ide/vscode/docs/04-vscode-shortcuts.md)
 
 ---
 
