@@ -5,36 +5,38 @@ nav_order: 1
 nav_exclude: true
 ---
 
-<div align="center">
-  <h1>⛺ Basecamp for Backend</h1>
-  <p>기초부터 탄탄하게 쌓아 올리는 서버 개발 지식 아카이브입니다.</p>
-</div>
+# 📼 백엔드 베이스캠프: 여정의 기록 .. 🎞️
 
-<br>
-
-## 🧭 Knowledge Map (지식 탐색)
-각 카테고리를 클릭하면 상세 학습 기록과 코드를 확인할 수 있습니다.
-
-| 🎯 1. .NET | 🌐 2. Frontend |
-| :--- | :--- |
-| **C# 10/12/13, .NET 9, EF Core, CLR 심층 분석**<br><br>👉 **[카테고리 이동](./docs/01-dotnet/)** | **React, TypeScript, Next.js, UI 분리 전략**<br><br>👉 **[카테고리 이동](./docs/02-frontend/)** |
-
-| 🛠️ 3. Tools & IDE | 🏗️ 4. Architecture |
-| :--- | :--- |
-| **Visual Studio, VS Code, IntelliJ, Git 설정**<br><br>👉 **[카테고리 이동](./docs/03-tools-ide/)** | **Clean Architecture, DDD, 레거시 현대화 설계**<br><br>👉 **[카테고리 이동](./docs/04-architecture/)** |
-
-| 📦 5. Infra & DevOps | 🤖 6. AI & Agent |
-| :--- | :--- |
-| **Docker, Redis, Kafka, CI/CD 구축 가이드**<br><br>👉 **[카테고리 이동](./docs/05-infra-devops/)** | **LLM 활용, 에이전트 설계, Antigravity**<br><br>👉 **[카테고리 이동](./docs/06-ai-agent/)** |
-
-| ⚓ 7. Career | |
-| :--- | :--- |
-| **시니어 백엔드 루틴, 기술 로드맵, 회고 기록**<br><br>👉 **[카테고리 이동](./docs/07-career/)** | |
+> **"리팩토링은 근사하니까."** ✨
 
 ---
 
-## 🎯 2026 Final Destination
-- [ ] **Career**: 시니어 백엔드 스펙업 (대용량 트랜잭션 설계 전문가)
-- [ ] **Skillset**: .NET 8/9/10 장인 & 레거시 현대화 마스터
-- [ ] **English**: OPIc AL 취득 (글로벌 커뮤니케이션 역량 증명)
-- [ ] **Wellness**: 10PM-5AM 루틴 정착 및 운동
+## 📍 Now
+
+> 🚨 **IMPORTANT**
+> ### Sprint 1: API 기초 (05/04 ~ 05/17)
+> * **진행률**: 20% ▓▓░░░░░░░░
+> * **상태**: 타 업무 종료 후 04/20 조기 착수 🏃♂️
+> * **목표**: 현대적 API 아키텍처 이해
+
+---
+
+## 🗺️ 여정의 지도
+
+* **기록 📂** : 과거의 맥락을 읽고 꼼꼼하게 남기기
+* **정제 🧼** : 복잡하게 꼬인 로직을 풀고 깨끗하게 만들기
+* **기준 📏** : 나만의 규칙으로 길 위에 이정표 세우기
+* **배움 💡** : 여정에서 마주한 문제와 해결책 저장하기
+
+---
+
+## ⭐ 즐겨찾기
+
+| 구분 | 즐겨찾기 항목 | 링크 |
+| :--- | :--- | :--- |
+| **Roadmap** | 🧭 2026 로드맵 | [확인](./docs/07-career/roadmap/docs/2026-roadmap.md) |
+| **Git** | ⚡ 깃 치트시트 | [확인](./docs/03-tools-ide/git/docs/git-commands.md) |
+
+---
+
+&copy; 2026 rhdms0327 Backend Basecamp.
