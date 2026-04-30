@@ -23,9 +23,13 @@ nav_exclude: true
 | :--- | :--- |
 | **Visual Studio, VS Code, IntelliJ, Git 설정**<br><br>👉 **[카테고리 이동](./docs/03-tools-ide/)** | **Clean Architecture, DDD, 레거시 현대화 설계**<br><br>👉 **[카테고리 이동](./docs/04-architecture/)** |
 
-| 📦 5. Infra & DevOps | ⚓ 6. Career |
+| 📦 5. Infra & DevOps | 🤖 6. AI & Agent |
 | :--- | :--- |
-| **Docker, Redis, Kafka, CI/CD 구축 가이드**<br><br>👉 **[카테고리 이동](./docs/05-infra-devops/)** | **시니어 백엔드 루틴, 기술 로드맵, 회고 기록**<br><br>👉 **[카테고리 이동](./docs/06-career/)** |
+| **Docker, Redis, Kafka, CI/CD 구축 가이드**<br><br>👉 **[카테고리 이동](./docs/05-infra-devops/)** | **LLM 활용, 에이전트 설계, Antigravity**<br><br>👉 **[카테고리 이동](./docs/06-ai-agent/)** |
+
+| ⚓ 7. Career | |
+| :--- | :--- |
+| **시니어 백엔드 루틴, 기술 로드맵, 회고 기록**<br><br>👉 **[카테고리 이동](./docs/07-career/)** | |
 
 ---
 

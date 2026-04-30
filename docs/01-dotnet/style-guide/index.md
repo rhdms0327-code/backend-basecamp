@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Style Guide"
+title: "🎨 Style Guide"
 has_children: true
 parent: ".NET"
 nav_order: 3
 ---
 
-# Style Guide
+# 🎨 Style Guide
 
 > .NET 및 C# 개발 시 준수해야 할 명명 규칙, 코딩 스타일, 가이드라인을 정리합니다.
 
