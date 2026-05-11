@@ -55,8 +55,6 @@ nav_order: 2
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🧠 .NET 및 .NET Core 지원 정책 (LTS vs STS)](./docs/02-dotnet-support-policy.md)** | `Minimal API` `Core` |
-| **[🧠 C# 언어 버전 관리 (C# Language Versioning)](./docs/03-csharp-language-versioning.md)** | `Minimal API` `Core` |
 | **[🧠 프로젝트 기술 스펙 및 학습 목표](./docs/04-project-spec-and-goals.md)** | `Minimal API` `Core` |
 | **[🧠 .NET 10 SDK 설치 및 환경 확인](./docs/05-dotnet-installation-guide.md)** | `Minimal API` `Core` |
 | **[🧠 Minimal API Overview](./docs/06-minimal-api-overview.md)** | `Minimal API` `Core` |

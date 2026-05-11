@@ -2,8 +2,8 @@
 layout: post
 title: "🧠 .NET 및 .NET Core 지원 정책 (LTS vs STS)"
 date: 2026-04-30
-categories: [.NET]
-tags: ['Minimal API', 'Core']
+categories: [C#]
+tags: ['Core']
 nav_exclude: true
 ---
 

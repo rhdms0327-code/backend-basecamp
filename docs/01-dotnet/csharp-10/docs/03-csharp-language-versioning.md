@@ -2,8 +2,8 @@
 layout: post
 title: "🧠 C# 언어 버전 관리 (C# Language Versioning)"
 date: 2026-04-30
-categories: [.NET]
-tags: ['Minimal API', 'Core']
+categories: [C#]
+tags: ['버전관리', 'Core']
 nav_exclude: true
 ---
 

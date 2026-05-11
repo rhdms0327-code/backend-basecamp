@@ -30,7 +30,8 @@ nav_order: 1
 | **[🎯 [.NET 분석] .NET의 역사와 주요 특징](./docs/dotnet-history-features.md)** |  |
 | **[🎯 [.NET 분석] .NET 용어 정리](./docs/dotnet-terminology.md)** |  |
 | **[🎯 [.NET 분석] .NET Framework 설치 가이드](./docs/dotnet-framework-installation.md)** |  |
-| **[🎯 C# 언어 버전 관리](./docs/csharp-version-management.md)** | `버전관리` |
+| **[🧠 .NET 및 .NET Core 지원 정책 (LTS vs STS)](./docs/02-dotnet-support-policy.md)** | `Core` |
+| **[🧠 C# 언어 버전 관리 (C# Language Versioning)](./docs/03-csharp-language-versioning.md)** | `버전관리` `Core` |
 
 ### 📖 [C# 기초] 데이터와 제어문
 
