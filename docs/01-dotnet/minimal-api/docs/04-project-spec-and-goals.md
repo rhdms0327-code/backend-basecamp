@@ -3,7 +3,7 @@ layout: post
 title: "🧠 프로젝트 기술 스펙 및 학습 목표"
 date: 2026-04-30
 categories: [.NET]
-tags: ['Minimal API', 'Core']
+tags: ['기초']
 nav_exclude: true
 ---
 

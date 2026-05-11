@@ -3,7 +3,7 @@ layout: post
 title: "🚀 .NET Framework -> .NET Core 주요 변경사항"
 date: 2026-04-30
 categories: [.NET]
-tags: ['Minimal API', '기초']
+tags: ['기초']
 nav_exclude: true
 ---
 

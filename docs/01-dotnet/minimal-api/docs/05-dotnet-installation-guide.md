@@ -3,7 +3,7 @@ layout: post
 title: "🧠 .NET 10 SDK 설치 및 환경 확인"
 date: 2026-04-30
 categories: [.NET]
-tags: ['Minimal API', 'Core']
+tags: ['기초']
 nav_exclude: true
 ---
 
