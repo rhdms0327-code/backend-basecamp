@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🎯 C# 언어 버전 관리하기"
+title: "💜 C# 언어 버전 관리하기"
 date: 2025-12-05
 categories: [Visual Studio 2022]
 tags: [C#, .NET, 버전관리]

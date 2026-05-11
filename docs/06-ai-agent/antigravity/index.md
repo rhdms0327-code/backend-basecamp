@@ -2,7 +2,7 @@
 layout: page
 title: "🚀 Antigravity"
 has_children: true
-parent: "🤖 AI & Agent"
+parent: "AI & Agent"
 nav_order: 1
 ---
 

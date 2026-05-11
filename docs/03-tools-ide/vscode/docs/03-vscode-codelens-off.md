@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🛠️ 🔨 Code Lens(Reference) 안 보이게 하는 방법"
+title: "🩵 🔨 Code Lens(Reference) 안 보이게 하는 방법"
 date: 2026-04-30
 categories: [Tools & IDE]
 tags: ['VSCode', 'C#']

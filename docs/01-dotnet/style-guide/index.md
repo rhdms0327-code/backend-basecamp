@@ -13,6 +13,7 @@ nav_order: 3
 ---
 
 ## 📑 참고서적
+
 | 도서명 | 핵심 키워드 | 링크 |
 | :--- | :--- | :--- |
 | **Clean Code (로버트 C. 마틴 저)** | `클린코드` `애자일` `유지보수` | [YES24 상세정보](https://www.yes24.com/product/goods/91737015) |
@@ -20,6 +21,7 @@ nav_order: 3
 ---
 
 ## 📂 리스트 (총 2건)
+
 | 제목 | 키워드 |
 | :--- | :--- |
 | **[🎨 명명 규칙 (Naming Convention)](./docs/naming-convention.md)** | `명명규칙` `제네릭` |

@@ -2,7 +2,7 @@
 layout: page
 title: "🗺️ Roadmap"
 has_children: true
-parent: "⚓ Career"
+parent: "Career"
 nav_order: 1
 ---
 

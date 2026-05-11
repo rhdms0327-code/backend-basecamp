@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🛠️ VS Code 주요 단축키 정리 (VS Code Shortcuts)"
+title: "🩵 VS Code 주요 단축키 정리 (VS Code Shortcuts)"
 date: 2026-04-30
 categories: [Tools & IDE]
 tags: ['VSCode', 'C#']

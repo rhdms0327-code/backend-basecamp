@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🛠️ 💡 시니어의 꿀팁: `.vscode/settings.json`으로 관리하기"
+title: "🩵 💡 시니어의 꿀팁: `.vscode/settings.json`으로 관리하기"
 date: 2026-04-30
 categories: [Tools & IDE]
 tags: ['VSCode', 'C#']

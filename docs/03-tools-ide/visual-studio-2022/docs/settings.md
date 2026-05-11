@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🛠️ 설정 모음"
+title: "💜 설정 모음"
 date: 2025-12-31
 categories: [Visual Studio 2022]
 tags: [설정, CodeLens]

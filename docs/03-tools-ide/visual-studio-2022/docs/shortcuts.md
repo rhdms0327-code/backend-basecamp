@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "⚡ 단축키 모음"
+title: "💜 단축키 모음"
 date: 2025-12-03
 categories: [Visual Studio 2022]
 tags: [단축키, 생산성]

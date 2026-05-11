@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🛠️ 🎡 마우스 휠로 글자 크기 조절 설정하기"
+title: "🩵 🎡 마우스 휠로 글자 크기 조절 설정하기"
 date: 2026-04-30
 categories: [Tools & IDE]
 tags: ['VSCode', '마우스 휠', '글자크기']
