@@ -33,15 +33,15 @@ nav_order: 2
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🔍 MVC 등장 배경과 현대적 가치](./docs/mvc-background.md)** | `WebForms` `웹표준` `REST` |
-| **[🌟 ASP.NET 웹 개발 프레임워크](./docs/getting-started.md)** | `WebForms` `WebPages` `Core` |
-| **[🚀 첫 MVC 프로그램 만들기](./docs/first-mvc-app.md)** | `VS설정` `템플릿` |
-| **[📂 프로젝트 구조와 명명 규약](./docs/project-structure.md)** | `MVC5` `규약` `컨벤션` |
-| **[🧩 MVC 패턴과 디자인 원칙](./docs/mvc-pattern.md)** | `MVC` `패턴` `결합도` |
-| **[🎨 Razor 뷰 엔진 활용](./docs/razor-view-engine.md)** | `Razor` `Layout` `View` |
-| **[🏛️ 현대적 웹 애플리케이션 아키텍처](./docs/modern-web-architecture.md)** | `아키텍처` `Clean` `DIP` |
-| **[🎯 의존성 주입 (DI) 및 Ninject](./docs/dependency-injection.md)** | `DI` `Ninject` `IoC` |
-| **[🛠️ 단위 테스트 툴 및 Moq](./docs/unit-testing-tools.md)** | `TDD` `MSTest` `Moq` |
-| **[🗄️ Entity Framework 6 가이드](./docs/ef6-guide.md)** | `EF6` `CodeFirst` `ORM` |
-| **[🏗️ MVC 개요 및 CoC](./docs/mvc-overview.md)** | `CoC` `규약` `컴파일` |
+| **[🌐 MVC 등장 배경과 현대적 가치](./docs/mvc-background.md)** | `WebForms` `웹표준` `REST` |
+| **[🌐 ASP.NET 웹 개발 프레임워크](./docs/getting-started.md)** | `WebForms` `WebPages` `Core` |
+| **[🌐 첫 MVC 프로그램 만들기](./docs/first-mvc-app.md)** | `VS설정` `템플릿` |
+| **[🌐 프로젝트 구조와 명명 규약](./docs/project-structure.md)** | `MVC5` `규약` `컨벤션` |
+| **[🌐 MVC 패턴과 디자인 원칙](./docs/mvc-pattern.md)** | `MVC` `패턴` `결합도` |
+| **[🌐 Razor 뷰 엔진 활용](./docs/razor-view-engine.md)** | `Razor` `Layout` `View` |
+| **[🌐 현대적 웹 애플리케이션 아키텍처](./docs/modern-web-architecture.md)** | `아키텍처` `Clean` `DIP` |
+| **[🌐 의존성 주입 (DI) 및 Ninject](./docs/dependency-injection.md)** | `DI` `Ninject` `IoC` |
+| **[🌐 단위 테스트 툴 및 Moq](./docs/unit-testing-tools.md)** | `TDD` `MSTest` `Moq` |
+| **[🌐 Entity Framework 6 가이드](./docs/ef6-guide.md)** | `EF6` `CodeFirst` `ORM` |
+| **[🌐 MVC 개요 및 CoC](./docs/mvc-overview.md)** | `CoC` `규약` `컴파일` |
 | **[🌐 URL 라우팅](./docs/routing.md)** | `Routing` `RouteData` `매핑` |

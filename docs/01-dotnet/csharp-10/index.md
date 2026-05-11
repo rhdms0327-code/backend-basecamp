@@ -26,19 +26,19 @@ nav_order: 1
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🔍 [.NET 분석] .NET이란 무엇인가?](./docs/what-is-dotnet.md)** |  |
+| **[🎯 [.NET 분석] .NET이란 무엇인가?](./docs/what-is-dotnet.md)** |  |
 | **[🎯 [.NET 분석] .NET의 역사와 주요 특징](./docs/dotnet-history-features.md)** |  |
 | **[🎯 [.NET 분석] .NET 용어 정리](./docs/dotnet-terminology.md)** |  |
 | **[🎯 [.NET 분석] .NET Framework 설치 가이드](./docs/dotnet-framework-installation.md)** |  |
-| **[🧠 .NET 및 .NET Core 지원 정책 (LTS vs STS)](./docs/02-dotnet-support-policy.md)** | `Core` |
-| **[🧠 C# 언어 버전 관리 (C# Language Versioning)](./docs/03-csharp-language-versioning.md)** | `버전관리` `Core` |
+| **[🎯 .NET 및 .NET Core 지원 정책 (LTS vs STS)](./docs/02-dotnet-support-policy.md)** | `Core` |
+| **[🎯 C# 언어 버전 관리 (C# Language Versioning)](./docs/03-csharp-language-versioning.md)** | `버전관리` `Core` |
 
 ### 📖 [C# 기초] 데이터와 제어문
 
 | 제목 | 키워드 |
 | :--- | :--- |
 | **[🎯 [1장] 프로그래밍 언어의 역사](./docs/programming-history.md)** |  |
-| **[🧠 [1장] 프로그래밍 기본 개념](./docs/programming-basic-concepts.md)** |  |
+| **[🎯 [1장] 프로그래밍 기본 개념](./docs/programming-basic-concepts.md)** |  |
 | **[🎯 [1장] C# 파일 구조 및 환경 설정](./docs/csharp-environment-setup.md)** |  |
 | **[🎯 [2장] Hello World 프로젝트 생성](./docs/hello-world-creation.md)** |  |
 | **[🎯 [2장] Hello World 코드 분석](./docs/hello-world-analysis.md)** |  |
@@ -67,7 +67,7 @@ nav_order: 1
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🧠 [10장] 배열 (Array)](./docs/array.md)** | `배열` `컬렉션` |
+| **[🎯 [10장] 배열 (Array)](./docs/array.md)** | `배열` `컬렉션` |
 | **[🎯 [10장] 자료구조 (컬렉션 - Collections)](./docs/collections.md)** | `자료구조` `컬렉션` |
 | **[🎯 [11장] 일반화 프로그래밍 (Generic Programming)](./docs/generic-programming.md)** | `제네릭` |
 | **[🎯 [12장] 예외 처리 (Exception Handling)](./docs/exception-handling.md)** | `예외처리` |
@@ -87,10 +87,10 @@ nav_order: 1
 | 제목 | 키워드 |
 | :--- | :--- |
 | **[🎯 [18장] 스트림 (Stream)](./docs/stream.md)** | `메모리` |
-| **[🧠 [19장] 스레드 기본 개념 (Process vs Thread)](./docs/thread-basics.md)** | `메모리` |
-| **[🧵 [19장] 스레드 동기화 (Thread Synchronization)](./docs/thread-synchronization.md)** | `메모리` |
+| **[🎯 [19장] 스레드 기본 개념 (Process vs Thread)](./docs/thread-basics.md)** | `메모리` |
+| **[🎯 [19장] 스레드 동기화 (Thread Synchronization)](./docs/thread-synchronization.md)** | `메모리` |
 | **[🎯 [19장] 동기 / 비동기 / 블로킹 / 논블로킹](./docs/async-sync-blocking-nonblocking.md)** | `병렬처리` `비동기` |
-| **[⚡ [22장] 가비지 컬렉션 (Garbage Collection)](./docs/garbage-collection.md)** | `메모리관리` `성능최적화` `가비지컬렉션` |
+| **[🎯 [22장] 가비지 컬렉션 (Garbage Collection)](./docs/garbage-collection.md)** | `메모리관리` `성능최적화` `가비지컬렉션` |
 | **[🎯 [CLR 심층 분석] CLR이 사용하는 메모리 구조](./docs/clr-memory-structure.md)** | `CLR` `메모리관리` |
 | **[🎯 [CLR 심층 분석] CLR 관련 개념 정리](./docs/clr-deep-dive.md)** | `CLR` `런타임` |
 | **[🎯 C# 코딩 규칙 (Coding Conventions)](./docs/coding-conventions.md)** | `코딩규칙` `클린코드` |

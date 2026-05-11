@@ -49,15 +49,14 @@ nav_order: 2
 | :--- | :--- |
 | **[🚀 운영 서버 스펙 (Production Server Specs)](./docs/01-production-server-specs.private.md)** | `기초` |
 | **[🚀 .NET Framework -> .NET Core 주요 변경사항](./docs/02-dotnet-migration-key-changes.md)** | `기초` |
-| **[🧠 프로젝트 기술 스펙 및 학습 목표](./docs/04-project-spec-and-goals.md)** | `기초` |
-| **[🧠 .NET 10 SDK 설치 및 환경 확인](./docs/05-dotnet-installation-guide.md)** | `기초` |
-| **[🧠 Minimal API와 Controller-based API 비교](./docs/06-minimal-api-overview.md)** | `API 방식 비교` `Controller-based API` |
-
+| **[🚀 프로젝트 기술 스펙 및 학습 목표](./docs/04-project-spec-and-goals.md)** | `기초` |
+| **[🚀 .NET 10 SDK 설치 및 환경 확인](./docs/05-dotnet-installation-guide.md)** | `기초` |
+| **[🚀 Minimal API와 Controller-based API 비교](./docs/06-minimal-api-overview.md)** | `API 방식 비교` `Controller-based API` |
 
 ### 📌 Chapter 02: MS 공식 문서로 공부하기
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🎯 Tutorial: Create a Minimal API](./docs/07-minimal-api-tutorial.md)** | `최소 API 만들기` `튜토리얼` |
-| **[🎯 현대적 Minimal API 표준 폴더 구조](./docs/02-minimal-api-folder-structure.md)** | `Minimal API` `튜토리얼` |
+| **[🚀 Tutorial: Create a Minimal API](./docs/07-minimal-api-tutorial.md)** | `최소 API 만들기` `튜토리얼` |
+| **[🚀 현대적 Minimal API 표준 폴더 구조](./docs/02-minimal-api-folder-structure.md)** | `Minimal API` `튜토리얼` |
 

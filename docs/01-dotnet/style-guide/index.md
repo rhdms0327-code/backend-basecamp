@@ -22,5 +22,5 @@ nav_order: 3
 ## 📂 리스트 (총 2건)
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🎯 명명 규칙 (Naming Convention)](./docs/naming-convention.md)** | `명명규칙` `제네릭` |
-| **[🛠️ C# 코딩 규칙 정리](./docs/coding-convention.md)** | `코딩스타일` `중괄호` |
+| **[🎨 명명 규칙 (Naming Convention)](./docs/naming-convention.md)** | `명명규칙` `제네릭` |
+| **[🎨 C# 코딩 규칙 정리](./docs/coding-convention.md)** | `코딩스타일` `중괄호` |
