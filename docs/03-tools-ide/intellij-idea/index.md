@@ -1,9 +1,7 @@
 ---
 layout: page
----
-layout: page
 title: "💙 IntelliJ IDEA"
-parent: Tools & IDE
+parent: "Tools & IDE"
 has_children: true
 nav_order: 3
 ---
