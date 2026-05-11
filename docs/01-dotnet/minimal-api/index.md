@@ -12,6 +12,35 @@ nav_order: 2
 
 ---
 
+## 🎯 Sprint 1: 학습 목표 및 계획
+
+### 1. 🏁 목표 (Goals)
+- .NET 10 Minimal API 표준 아키텍처 정립
+- Sprint 2(Dapper 연동) 진입을 위한 API 스켈레톤 완성
+
+### 2. 📚 핵심 학습 범위 (Study Areas)
+- Tutorial: Create a Minimal API
+- WebApplication and WebApplicationBuilder
+- Route Handlers
+- Parameter binding
+- Create responses
+- Middleware
+- Handle errors
+- Authentication and authorization
+
+### 3. 💡 집중 포인트 (Key Points)
+- **구조 전환**: 기존 Controller 방식이 아닌 Minimal API 매핑 방식 내재화
+- **실무 설계**: MS Learn 학습 내용을 프로젝트 레이어(Service, DTO)에 즉시 적용
+- **확장성**: Dapper/EF Core를 얹을 수 있는 의존성 주입(DI) 구조 확보
+
+### 4. 📦 결과물 (Deliverables)
+- **API Skeleton**: .NET 10 프로젝트 기본 구조 및 솔루션 구성
+- **Dummy Endpoints**: 조회·수행 로직이 포함될 가짜(Mock) API 3~5개
+- **Standard Logic**: 전역 예외 처리기 및 로깅 미들웨어
+- **Configuration**: 환경별 `appsettings.json` 설정 및 서비스 등록 체계 완료
+
+---
+
 ## 📂 리스트 (총 14건)
 
 ### 📌 Chapter 01: 시작하기
