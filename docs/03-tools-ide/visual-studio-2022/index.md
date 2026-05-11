@@ -19,3 +19,4 @@ nav_order: 1
 | **[💜 설정 모음](./docs/settings.md)** | `설정` `CodeLens` |
 | **[💜 C# 언어 버전 관리하기](./docs/csharp-version.md)** | `C#` `.NET` `버전관리` |
 | **[💜 단축키 모음](./docs/shortcuts.md)** | `단축키` `생산성` |
+

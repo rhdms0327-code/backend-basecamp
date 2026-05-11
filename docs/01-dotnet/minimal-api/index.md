@@ -60,3 +60,4 @@ nav_order: 2
 | **[🚀 Tutorial: Create a Minimal API](./docs/07-minimal-api-tutorial.md)** | `최소 API 만들기` `튜토리얼` |
 | **[🚀 현대적 Minimal API 표준 폴더 구조](./docs/02-minimal-api-folder-structure.md)** | `Minimal API` `튜토리얼` |
 
+

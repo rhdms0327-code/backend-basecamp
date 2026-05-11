@@ -22,3 +22,4 @@ nav_order: 3
 | **[🩵 VS Code 주요 단축키 정리 (VS Code Shortcuts)](./docs/04-vscode-shortcuts.md)** | `VSCode` `C#` |
 | **[🩵 🎡 마우스 휠로 글자 크기 조절 설정하기](./docs/05-vscode-mouse-wheel-zoom.md)** | `VSCode` `마우스 휠` `글자크기` |
 
+

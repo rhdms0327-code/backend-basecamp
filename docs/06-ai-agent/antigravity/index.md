@@ -24,3 +24,4 @@ nav_order: 1
 | **[🚀 MSSql MCP 설치 (Github)](./docs/mssql-mcp-installation.md)** | `MCP` `SQLServer` |
 
 ---
+
