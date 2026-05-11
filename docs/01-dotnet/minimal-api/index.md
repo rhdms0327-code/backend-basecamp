@@ -41,7 +41,7 @@ nav_order: 2
 
 ---
 
-## 📂 리스트 (총 8건)
+## 📂 리스트 (총 7건)
 
 ### 📌 Chapter 01: Minimal API 시작
 
@@ -60,5 +60,4 @@ nav_order: 2
 | :--- | :--- |
 | **[🎯 Tutorial: Create a Minimal API](./docs/07-minimal-api-tutorial.md)** | `최소 API 만들기` `튜토리얼` |
 | **[🎯 현대적 Minimal API 표준 폴더 구조](./docs/02-minimal-api-folder-structure.md)** | `Minimal API` `튜토리얼` |
-| **[🛠️ VS Code 메뉴에 안잡힘](./docs/08-vscode-run-menu-issue.md)** |  |
 

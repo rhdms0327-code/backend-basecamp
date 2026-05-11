@@ -2,7 +2,7 @@
 layout: page
 title: "🧰 VS Code"
 has_children: true
-parent: "🛠️ Tools & IDE"
+parent: "Tools & IDE"
 nav_order: 3
 ---
 
