@@ -20,7 +20,7 @@ nav_order: 1
 
 ---
 
-## 📂 리스트 (총 42건)
+## 📂 리스트 (총 45건)
 
 ### 🚀 들어가며: .NET 개요와 환경 설정
 
@@ -62,6 +62,8 @@ nav_order: 1
 | **[🎯 [7장] 구조체 및 튜플 (Struct & Tuple)](./docs/struct-tuple.md)** |  |
 | **[🎯 [8장] 인터페이스 (Interface)](./docs/interface.md)** | `객체지향` `인터페이스` |
 | **[🎯 [9장] 프로퍼티 (Property)](./docs/property.md)** |  |
+| **[🎯 레코드 (record)](./docs/record.md)** | `record` `record struct` |
+| **[🎯 접근 한정자 (Access Modifiers)](./docs/access-modifiers.md)** | `접근 한정자` `public` `private` `internal` `protected` |
 
 ### 🧱 [고급 문법] 배열과 일반화
 

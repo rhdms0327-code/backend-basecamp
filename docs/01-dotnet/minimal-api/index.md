@@ -10,6 +10,19 @@ nav_order: 2
 
 > .NET 10 기반의 가볍고 빠른 Minimal API 구축 아카이브
 
+**🏃‍♂️ Current Sprint: Sprint 1 (05/11 ~ 05/24)**  
+*API 기초 - Minimal API 심화 학습 및 프로젝트 환경 완벽 세팅*
+
+### 📅 상세 일정
+
+| 기간 | 학습 주제 | MS Learn 참고 메뉴 (왼쪽 사이드바 기준) |
+| :--- | :--- | :--- |
+| **5/12 (화)** | [오전] 기초 공사 및 DI<br>[오후] 라우팅 및 데이터 바인딩 | - Tutorial: Create a minimal API<br>- WebApplication and WebApplicationBuilder<br>- Route handlers<br>- Parameter binding<br>- Create responses |
+| **5/13 (수)** | 미들웨어 기반 다지기 | - Middleware |
+| **5/14 (목)** | 전역 예외 처리 및 로깅 | - Handle errors |
+| **5/15 (금)** | 보안 기초 (Auth) | - Authentication and authorization |
+| **5/18 ~ 5/22** | 아키텍처 고도화 및 회고 | 위 문서들을 종합하여 Service/DTO 레이어 분리 및 Dapper 연동 준비 |
+
 ---
 
 ## 🎯 Sprint 1: 학습 목표 및 계획
@@ -41,7 +54,7 @@ nav_order: 2
 
 ---
 
-## 📂 리스트 (총 7건)
+## 📂 리스트 (총 11건)
 
 ### 📌 Chapter 01: Minimal API 시작
 
@@ -53,11 +66,17 @@ nav_order: 2
 | **[🚀 .NET 10 SDK 설치 및 환경 확인](./docs/05-dotnet-installation-guide.md)** | `기초` |
 | **[🚀 Minimal API와 Controller-based API 비교](./docs/06-minimal-api-overview.md)** | `API 방식 비교` `Controller-based API` |
 
-### 📌 Chapter 02: MS 공식 문서로 공부하기
+### 📌 Chapter 02: 🚀 Tutorial: Create a Minimal API
+
+> 💡 **공식 레퍼런스**: 본 챕터의 문서들은 Microsoft 공식 학습 가이드인 [자습서: ASP.NET Core를 사용하여 최소 API 만들기](https://learn.microsoft.com/ko-kr/aspnet/core/tutorials/min-web-api?view=aspnetcore-10.0&tabs=visual-studio-code)를 실무 환경(VS Code)에 맞게 직접 테스트하고 지식화한 기록입니다.
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🚀 Tutorial: Create a Minimal API](./docs/07-minimal-api-tutorial.md)** | `최소 API 만들기` `튜토리얼` |
-| **[🚀 현대적 Minimal API 표준 폴더 구조](./docs/02-minimal-api-folder-structure.md)** | `Minimal API` `튜토리얼` |
+| **[🚀 현대적 Minimal API 표준 폴더 구조](./docs/02-minimal-api-folder-structure.md)** | `폴더 구조` `아키텍처` `엔드포인트 분리` `DTO 폴더구조` `record DTO` |
+| **[🚀 Minimal API 프로젝트 생성 및 엔드포인트 기초](./docs/07-minimal-api-tutorial.md)** | `프로젝트 생성` `CRUD` `인메모리 DB` |
+| **[🚀 OpenAPI와 Swagger UI 구축](./docs/08-openapi-and-swagger.md)** | `OpenAPI` `Swagger` |
+| **[🚀 MapGroup으로 코드 구조화하기](./docs/09-mapgroup-structured-code.md)** | `MapGroup` |
+| **[🚀 TypedResults 활용하기](./docs/10-typed-results-usage.md)** | `TypedResults` `Results` |
+| **[🛡️ Over-posting 방지 전략](./docs/11-over-posting-prevention.md)** | `초과 게시` `DTO` `DTO 명명규칙` |
 
 

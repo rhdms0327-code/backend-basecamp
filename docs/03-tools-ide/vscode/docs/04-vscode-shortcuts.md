@@ -46,4 +46,14 @@ nav_exclude: true
 
 ---
 
+## 5. 단축키 설정
+
+- **단축키 설정창 열기**: `Ctrl + K` -> `Ctrl + S`
+
+| 기능 | 명령어 (Command) |
+| :--- | :--- |
+| **아래로 줄 복사** | `editor.action.copyLinesDownAction` |
+
+---
+
 [🔙 뒤로 가기](../index.md)
