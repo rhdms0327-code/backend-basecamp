@@ -54,7 +54,7 @@ nav_order: 2
 
 ---
 
-## 📂 리스트 (총 11건)
+## 📂 리스트 (총 16건)
 
 ### 📌 Chapter 01: Minimal API 시작
 
@@ -78,5 +78,17 @@ nav_order: 2
 | **[🚀 MapGroup으로 코드 구조화하기](./docs/09-mapgroup-structured-code.md)** | `MapGroup` |
 | **[🚀 TypedResults 활용하기](./docs/10-typed-results-usage.md)** | `TypedResults` `Results` |
 | **[🛡️ Over-posting 방지 전략](./docs/11-over-posting-prevention.md)** | `초과 게시` `DTO` `DTO 명명규칙` |
+
+### 📌 Chapter 03: WebApplication and WebApplicationBuilder
+
+> 💡 **공식 레퍼런스**: 본 챕터의 문서들은 Microsoft 공식 학습 가이드인 [WebApplication and WebApplicationBuilder in Minimal APIs](https://learn.microsoft.com/ko-kr/aspnet/core/fundamentals/minimal-apis/webapplication?view=aspnetcore-10.0)를 바탕으로 학습한 내용을 정리한 기록입니다.
+
+| 제목 | 키워드 |
+| :--- | :--- |
+| **[🚀 WebApplication vs WebApplicationBuilder](./docs/12-webapplication-vs-builder.md)** | `WebApplication` `WebApplicationBuilder` |
+| **[🌐 포트 설정](./docs/13-port-configuration-guide.md)** | `포트 설정` `ASPNETCORE_URLS` |
+| **[🔒 HTTPS 및 인증서 설정 가이드](./docs/14-https-and-certificates.md)** | `https` `인증서 설정` |
+| **[🚀 인프라 관리의 핵심 (환경, 설정, 로깅)](./docs/15-infrastructure-management.md)** | `environment` `configuration` `logging` |
+| **[🚀 Spring Boot vs .NET Core: DI 스코프 비교](./docs/16-di-scope-comparison.md)** | `di` `scope` `singleton` `scoped` `request` `transient` |
 
 
