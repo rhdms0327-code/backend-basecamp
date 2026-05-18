@@ -11,6 +11,28 @@ nav_exclude: true
 
 ---
 
+## 🏗️ 앱 라이프사이클: 빌더(Builder)와 앱(App)의 분리
+
+ASP.NET Core 애플리케이션은 설정을 준비하는 단계와 실행하는 단계가 엄격하게 분리되어 있습니다.
+
+### 1. WebApplicationBuilder: 애플리케이션 기반 시설 준비
+
+`builder` 객체는 애플리케이션이 본격적으로 실행되기 전, 서버가 동작하는 데 필요한 설정과 자원들을 모으는 역할을 합니다. 이 단계에서는 아직 HTTP 요청을 받을 수 없습니다.
+
+*   **의존성 주입(DI) 컨테이너 세팅**: `builder.Services`를 통해 데이터베이스 컨텍스트나 비즈니스 로직(Service 레이어)을 등록합니다.
+*   **환경 설정 로드**: `appsettings.json`, 환경 변수, 사용자 암호(Secret) 등에서 설정값을 읽어옵니다.
+*   **로깅 구성**: `builder.Logging`을 통해 로그의 출력 형식이나 저장 위치 등을 미리 정의합니다.
+
+### 2. WebApplication: HTTP 파이프라인 및 라우팅 구축
+
+`builder.Build()`가 호출되는 순간, 앞서 설정한 재료들이 잠금(Read-only) 처리되며 실제 클라이언트의 요청을 받을 준비를 마친 `app` 객체가 탄생합니다.
+
+*   **미들웨어(Middleware) 파이프라인 조립**: `app.UseAuthentication()`, `app.UseCors()` 등 요청과 응답이 거쳐 갈 필터들을 순서대로 배치합니다.
+*   **라우트 핸들러 매핑**: `app.MapGet()`, `app.MapPost()` 등을 통해 특정 URL로 들어온 요청을 어떤 함수로 처리할지 연결합니다.
+
+
+---
+
 ## 1. 개요
 ASP.NET Core Minimal API에서 앱을 초기화하는 두 가지 방식은 단순한 코드 양의 차이를 넘어, 제어권의 범위와 설계의 유연성에서 뚜렷한 차이를 보입니다.
 

@@ -10,6 +10,8 @@ nav_order: 2
 
 > .NET 10 기반의 가볍고 빠른 Minimal API 구축 아카이브
 
+---
+
 **🏃‍♂️ Current Sprint: Sprint 1 (05/11 ~ 05/24)**  
 *API 기초 - Minimal API 심화 학습 및 프로젝트 환경 완벽 세팅*
 
@@ -17,11 +19,12 @@ nav_order: 2
 
 | 기간 | 학습 주제 | MS Learn 참고 메뉴 (왼쪽 사이드바 기준) |
 | :--- | :--- | :--- |
-| **5/12 (화)** | [오전] 기초 공사 및 DI<br>[오후] 라우팅 및 데이터 바인딩 | - Tutorial: Create a minimal API<br>- WebApplication and WebApplicationBuilder<br>- Route handlers<br>- Parameter binding<br>- Create responses |
-| **5/13 (수)** | 미들웨어 기반 다지기 | - Middleware |
-| **5/14 (목)** | 전역 예외 처리 및 로깅 | - Handle errors |
-| **5/15 (금)** | 보안 기초 (Auth) | - Authentication and authorization |
-| **5/18 ~ 5/22** | 아키텍처 고도화 및 회고 | 위 문서들을 종합하여 Service/DTO 레이어 분리 및 Dapper 연동 준비 |
+| **5/12 (화)** | 기초 공사 & DI<br> 라우팅 및 데이터 바인딩 | - Tutorial: Create a minimal API |
+| **5/13 (수)** | WebApplication 및 WebApplicationBuilder 남은 부분, 라우팅 및 데이터 바인딩 | - WebApplication and WebApplicationBuilder<br>- Route handlers<br>- Parameter binding<br>- Create responses |
+| **5/14 (목)** | 미들웨어 기반 다지기 | - Middleware |
+| **5/15 (금)** | 전역 예외 처리 및 로깅 | - Handle errors |
+| **5/18 (월)** | 보안 기초 (Auth) | - Authentication and authorization |
+| **5/19 ~ 5/22** | 아키텍처 고도화, 회고 및 개념 심화 | - 위 문서들을 종합하여 Service/DTO 레이어 분리 및 Dapper 연동 준비<br>- 부족했던 개념 보충 학습 |
 
 ---
 
@@ -54,7 +57,7 @@ nav_order: 2
 
 ---
 
-## 📂 리스트 (총 16건)
+## 📂 리스트 (총 22건)
 
 ### 📌 Chapter 01: Minimal API 시작
 
@@ -90,5 +93,21 @@ nav_order: 2
 | **[🔒 HTTPS 및 인증서 설정 가이드](./docs/14-https-and-certificates.md)** | `https` `인증서 설정` |
 | **[🚀 인프라 관리의 핵심 (환경, 설정, 로깅)](./docs/15-infrastructure-management.md)** | `environment` `configuration` `logging` |
 | **[🚀 Spring Boot vs .NET Core: DI 스코프 비교](./docs/16-di-scope-comparison.md)** | `di` `scope` `singleton` `scoped` `request` `transient` |
+| **[🚀 DI 컨테이너 액세스](./docs/17-accessing-di-container.md)** | `DI` `CreateScope` |
+| **[🚀 Configuration 설정](./docs/18-webapplication-builder-setup.md)** | `builder` `configuration` `AddIniFile` `IsDevelopment` `environment` `WebApplicationOptions` |
+| **[🚀 환경 제어: IsDevelopment() 판정 기준과 내부 메커니즘](./docs/19-environment-isdevelopment.md)** | `IsDevelopment` |
 
+### 📌 Chapter 04: 라우팅
 
+> 💡 **공식 레퍼런스**: 본 챕터의 문서들은 Microsoft 공식 학습 가이드인 [ASP.NET Core의 라우팅](https://learn.microsoft.com/ko-kr/aspnet/core/fundamentals/routing?view=aspnetcore-10.0)을 바탕으로 학습한 내용을 정리한 기록입니다.
+
+| 제목 | 키워드 |
+| :--- | :--- |
+| **[🚀 ASP.NET Core 10 라우팅](./docs/20-routing-endpoint-definition.md)** | `미들웨어` `라우팅` `엔드포인트` `ShortCircuit` |
+
+### 📌 Chapter 05: 파라미터 바인딩
+
+| 제목 | 키워드 |
+| :--- | :--- |
+| **[🚀 Minimal API 파라미터 바인딩 핵심 요약](./docs/21-parameter-binding-inference.md)** | |
+| **[🚀 현업 핵심 파라미터 바인딩 4대장](./docs/22-parameter-binding-core-4.md)** | |

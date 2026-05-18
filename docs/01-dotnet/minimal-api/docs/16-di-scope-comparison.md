@@ -54,7 +54,7 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddTransient<ITaxCalculator, TaxCalculator>();
 
 var app = builder.Build();
-
+```
 ---
 
 [🔙 뒤로 가기](../index.md)
