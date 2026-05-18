@@ -109,5 +109,5 @@ nav_order: 2
 
 | 제목 | 키워드 |
 | :--- | :--- |
-| **[🚀 Minimal API 파라미터 바인딩 핵심 요약](./docs/21-parameter-binding-inference.md)** | |
-| **[🚀 현업 핵심 파라미터 바인딩 4대장](./docs/22-parameter-binding-core-4.md)** | |
+| **[🚀 Minimal API 파라미터 바인딩 핵심 요약](./docs/21-parameter-binding-inference.md)** | `유추 기반 바인딩` `FromBody` `FromForm` `AsParameters` |
+| **[🚀 현업 핵심 파라미터 바인딩 4대장](./docs/22-parameter-binding-core-4.md)** | `FromBody` `FromRoute` `FromQuery` `FromForm` `FromServices` |

@@ -3,7 +3,7 @@ layout: post
 title: "🚀 현업 핵심 파라미터 바인딩 4대장"
 date: 2026-05-18
 categories: [Minimal API]
-tags: []
+tags: [FromBody, FromRoute, FromQuery, FromForm, FromServices]
 nav_exclude: true
 ---
 

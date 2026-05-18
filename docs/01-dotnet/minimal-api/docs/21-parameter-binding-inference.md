@@ -3,7 +3,7 @@ layout: post
 title: "🚀 Minimal API 파라미터 바인딩 핵심 요약"
 date: 2026-05-18
 categories: [Minimal API]
-tags: []
+tags: [유추 기반 바인딩, FromBody, FromForm, AsParameters]
 nav_exclude: true
 ---
 
