@@ -78,7 +78,7 @@ function Welcome(props) {
 function App() {
   return (
     <main>
-      <Welcome name="고은" />
+      <Welcome name="홍길동" />
       <Welcome name="인재" />
     </main>
   );

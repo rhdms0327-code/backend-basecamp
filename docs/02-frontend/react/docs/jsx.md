@@ -59,7 +59,7 @@ function Group() {
 
 ```jsx
 function Hello() {
-  const name = "고은";
+  const name = "홍길동";
   return <h1>안녕하세요, {name}님!</h1>;
 }
 ```

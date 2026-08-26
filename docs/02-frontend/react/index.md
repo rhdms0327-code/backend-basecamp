@@ -20,6 +20,17 @@ nav_order: 1
 | **리액트 디자인 패턴과 모범 사례** | `컴포넌트 패턴` `상태 관리` `성능 최적화` | [YES24 상세정보](https://www.yes24.com/product/goods/174207189) |
 | **리액트 훅스 인 액션** | `Custom Hooks` `Suspense` `Concurrent Mode` | [YES24 상세정보](https://www.yes24.com/product/goods/116613525) |
 
+---
+
+## 🚧 학습 현황 및 특이사항
+
+> [!IMPORTANT]
+> **Status**: On Hold (PAUSED)
+> - **이유**: 학습 우선순위 재조정에 따라 프론트엔드 정식 학습을 중단.
+> - **향후 계획**: 기존 학습 자산(11편)은 그대로 보존하며, 신규 학습은 보류.
+
+---
+
 ## 📂 리스트 (총 11건)
 
 | 제목 | 키워드 |

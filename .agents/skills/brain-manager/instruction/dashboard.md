@@ -19,4 +19,4 @@
 
 ---
 
-© 2026 rhdms0327 Backend Basecamp. All rights reserved.
+© 2026 Backend Basecamp. All rights reserved.
