@@ -7,7 +7,7 @@ on:
       - 'docs/**'
       - 'site/**'
       - 'scripts/**'
-      - '.github/workflows/pages.yml'
+      - '.github/workflows/**'
   workflow_dispatch:
 
 permissions:
