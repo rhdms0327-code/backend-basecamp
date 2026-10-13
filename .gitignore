@@ -1,1 +1,7 @@
 *.private.md
+
+# build output
+_site/
+
+# private: 커밋/배포하지 않는 영역 (이직·이력서 등 개인 자료)
+private/
