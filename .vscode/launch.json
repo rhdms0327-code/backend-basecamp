@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // F5: 사이트 빌드 → 로컬 서버 실행 → 브라우저 자동 열기
+      "name": "사이트 미리보기",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/serve.mjs",
+      "args": ["4173"],
+      "preLaunchTask": "build-site",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+      // 4173 이 사용 중이면 serve.mjs 가 다음 포트로 넘어가므로, 실제 출력된 주소를 연다
+      "serverReadyAction": {
+        "pattern": "(http://127\\.0\\.0\\.1:[0-9]+/)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    }
+  ]
+}

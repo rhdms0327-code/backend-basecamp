@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-site",
+      "detail": "docs/ 를 읽어 _site/ 로 사이트를 빌드",
+      "type": "shell",
+      "command": "node scripts/build-site.mjs",
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}
