@@ -150,7 +150,7 @@ createApp({
             <section class="sec">
               <div class="sechead"><h2>월별 정리량</h2><span>글 작성일 기준</span></div>
               <div class="card shadow-sm border-0 months">
-                <div v-for="m in monthly" :key="m.k" class="mcol"><span class="v mono">{{ m.n }}</span><div class="bar" :style="{ height: m.h + '%' }"></div><span>{{ m.label }}</span></div>
+                <div v-for="m in monthly" :key="m.k" class="mcol"><span class="v mono">{{ m.n }}</span><div class="bar" :style="{ height: m.h + '%' }"></div><span>{{ m.label }}</span><span class="yr">{{ m.yr }}</span></div>
               </div>
             </section>
           </template>
@@ -284,7 +284,7 @@ createApp({
       let [y, mo] = keys[0].split('-').map(Number);
       while (`${y}-${String(mo).padStart(2, '0')}` <= keys[keys.length - 1]) {
         const k = `${y}-${String(mo).padStart(2, '0')}`;
-        out.push({ k, n: m[k] || 0, label: `${mo}월` });
+        out.push({ k, n: m[k] || 0, mo, yr: out.length === 0 || mo === 1 ? String(y) : '', label: `${mo}월` });
         if (++mo > 12) { mo = 1; y++; }
       }
       const max = Math.max(...out.map((o) => o.n));

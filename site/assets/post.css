@@ -128,3 +128,7 @@ main{overflow:visible}
 .callout-important .callout-title { color: #4254c5; }
 .callout-warning, .callout-caution { border-left-color: #fb6340; background: #fff1ed; }
 .callout-warning .callout-title, .callout-caution .callout-title { color: #c4411f; }
+
+/* 월별 정리량: Argon .card 의 column 배치를 덮어써 막대를 가로로 나열 */
+.card.months { flex-direction: row; align-items: flex-end; }
+.mcol .yr { font-size: .65rem; color: #adb5bd; line-height: 1; }
