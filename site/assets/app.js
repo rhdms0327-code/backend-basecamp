@@ -197,7 +197,11 @@ createApp({
               <h3><span>이 주제의 순서</span><span class="mono">{{ readCount }}/{{ seq.length }} 읽음</span></h3>
               <ol>
                 <li v-for="(s, i) in seq" :key="s.path" :class="{ cur: i === seqIdx, read: i !== seqIdx && isRead(s) }">
-                  <button :aria-current="i === seqIdx ? 'page' : null" @click="goPost(s)"><span class="no mono">{{ i !== seqIdx && isRead(s) ? '✓' : i + 1 }}</span><span class="t">{{ s.title }}</span></button>
+                  <button :title="s.title" :aria-current="i === seqIdx ? 'page' : null" @click="goPost(s)"
+                          @mouseenter="showTip($event, s)" @mouseleave="hideTip" @focus="showTip($event, s)" @blur="hideTip">
+                    <span class="no mono">{{ i !== seqIdx && isRead(s) ? '✓' : i + 1 }}</span>
+                    <span class="t"><span v-if="splitTitle(s.title).pre" class="pre">{{ splitTitle(s.title).pre }}</span>{{ splitTitle(s.title).rest }}</span>
+                  </button>
                 </li>
               </ol>
               <button class="rail-all" @click="go('/t/' + post.c + '/' + post.t)">주제 목록 보기</button>
@@ -207,6 +211,7 @@ createApp({
         </main>
       </div>
     </div>
+    <div class="rail-tip" :class="{ on: tip.show, below: tip.below }" :style="{ top: tip.y + 'px', left: tip.x + 'px' }" aria-hidden="true">{{ tip.text }}</div>
     <div class="toast" :class="{ on: toastOn }" role="status">{{ toastMsg }}</div>
   </div>`,
 
@@ -321,6 +326,32 @@ createApp({
       }
       return out;
     });
+    // 오른쪽 순서 목록: 제목 앞의 [접두어]는 칩으로 분리하고, 두 줄을 넘어 잘린 제목만 호버 말풍선으로 전체를 보여준다
+    const splitTitle = (t) => {
+      const m = t.match(/^\[([^\]]+)\]\s*(.*)$/);
+      return m ? { pre: m[1], rest: m[2] || t } : { pre: '', rest: t };
+    };
+    const clipped = ref(new Set());
+    const tip = reactive({ show: false, text: '', x: 0, y: 0, below: false });
+    function measureRail() {
+      const s = new Set();
+      document.querySelectorAll('.rail li').forEach((li, i) => {
+        const t = li.querySelector('.t');
+        if (t && !li.classList.contains('cur') && t.scrollHeight > t.clientHeight + 1 && seq.value[i]) s.add(seq.value[i].path);
+      });
+      clipped.value = s;
+    }
+    function showTip(e, p) {
+      if (!clipped.value.has(p.path)) return;
+      const r = e.currentTarget.getBoundingClientRect();
+      const left = r.left - 18;
+      tip.text = p.title;
+      tip.below = left < 380;                 // 왼쪽 공간이 모자라면(좁은 화면) 항목 아래에 띄운다
+      tip.x = tip.below ? Math.max(8, r.left) : left;
+      tip.y = tip.below ? r.bottom + 4 : r.top;
+      tip.show = true;
+    }
+    function hideTip() { tip.show = false; }
     function goPost(p) { if (p) open(p); }
     function toggleCat(slug) { openCats.has(slug) ? openCats.delete(slug) : openCats.add(slug); }
     function isCurrentTopic(t) { return !q.value && topic.value && topic.value.key === t.key && route.value.type === 'topic'; }
@@ -386,6 +417,10 @@ createApp({
       loading.value = false;
       await nextTick();
       document.querySelectorAll('.md pre code').forEach((c) => hljs.highlightElement(c));
+      // 오른쪽 순서 목록은 현재 글이 가운데 보이도록 스크롤한다
+      const railEl = document.querySelector('.rail'), railCur = railEl && railEl.querySelector('li.cur');
+      if (railCur) railEl.scrollTop = railCur.offsetTop - railEl.clientHeight / 2 + railCur.offsetHeight / 2;
+      measureRail();
     }
 
     watch(post, (p) => { if (p) { loadPost(p); markRead(p); } }, { immediate: false });
@@ -396,6 +431,9 @@ createApp({
       index.cats = data.cats; index.posts = data.posts; loaded.value = true;
       window.addEventListener('hashchange', () => (route.value = parseRoute()));
       if (post.value) { loadPost(post.value); markRead(post.value); }
+      // 폭이 바뀌거나 글꼴이 로드되면 잘린 제목을 다시 계산한다
+      window.addEventListener('resize', () => nextTick(measureRail));
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => nextTick(measureRail));
       // [ 키로 사이드바 접기/펼치기
       window.addEventListener('keydown', (e) => {
         if (e.key !== '[' || e.altKey || e.ctrlKey || e.metaKey) return;
@@ -414,7 +452,7 @@ createApp({
     return {
       loaded, collapsed, toggleSide, crumbs, route, q, menuOpen, openCats, toastOn, toastMsg, loading, lead, sections, readMin,
       cats, allTopics, posts, topic, topicPosts, post, activeTopics, results, monthly,
-      seq, seqIdx, prevPost, nextPost, isRead, readCount, goPost,
+      seq, seqIdx, prevPost, nextPost, isRead, readCount, goPost, splitTitle, tip, showTip, hideTip,
       topicOf, catOf, go, open, toggleCat, isCurrentTopic,
       clean: stripEmoji, trunc,
     };

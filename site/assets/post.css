@@ -129,6 +129,48 @@ main{overflow:visible}
 .callout-warning, .callout-caution { border-left-color: #fb6340; background: #fff1ed; }
 .callout-warning .callout-title, .callout-caution .callout-title { color: #c4411f; }
 
+/* 본문 흐름도 (<div class="flow">): 넓으면 가로, 좁으면 세로로 배치 */
+.md .flow { container-type: inline-size; margin: .25rem 0 1.25rem; }
+.md .flow-in { display: flex; align-items: stretch; }
+.md .flow-node { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 2px; padding: 12px 10px; text-align: center; background: #fff; border: 1px solid #e9ecef; border-radius: .375rem; box-shadow: 0 1px 3px rgba(50,50,93,.08); }
+.md .flow-node b { color: #32325d; font-size: .88rem; line-height: 1.35; }
+.md .flow-node small { color: #8898aa; font-size: .75rem; line-height: 1.3; }
+.md .flow-node.mem { background: #e9ecfc; border-color: #c9d0f6; }
+.md .flow-step { --c: #5e72e4; flex: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; padding: 0 8px; }
+.md .flow-step.label { --c: #11cdef; }
+.md .flow-step .tag { font-size: .75rem; font-weight: 700; color: var(--c); white-space: nowrap; }
+.md .flow-step code { background: none; padding: 0; color: #525f7f; font-size: .76rem; white-space: nowrap; }
+.md .flow-step .arrow { position: relative; display: block; align-self: stretch; height: 2px; margin-right: 4px; background: var(--c); }
+.md .flow-step.label .arrow { background: repeating-linear-gradient(90deg, var(--c) 0 6px, transparent 6px 10px); }
+.md .flow-step .arrow::after { content: ''; position: absolute; right: -6px; top: 50%; transform: translateY(-50%); border-left: 7px solid var(--c); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+@container (max-width: 780px) {
+  .md .flow-in { flex-direction: column; }
+  .md .flow-step { display: grid; grid-template-columns: 1fr auto 1fr; column-gap: 12px; padding: 4px 0 10px; }
+  .md .flow-step .tag { justify-self: end; }
+  .md .flow-step code { justify-self: start; }
+  .md .flow-step .arrow { align-self: auto; width: 2px; height: 26px; margin: 0; }
+  .md .flow-step.label .arrow { background: repeating-linear-gradient(180deg, var(--c) 0 6px, transparent 6px 10px); }
+  .md .flow-step .arrow::after { right: auto; left: 50%; top: auto; bottom: -6px; transform: translateX(-50%); border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 7px solid var(--c); border-bottom: 0; }
+}
+
 /* 월별 정리량: Argon .card 의 column 배치를 덮어써 막대를 가로로 나열 */
 .card.months { flex-direction: row; align-items: flex-end; }
 .mcol .yr { font-size: .65rem; color: #adb5bd; line-height: 1; }
+
+/* 오른쪽 주제 순서 목록: 제목을 말줄임 없이 줄바꿈해서 전부 보여준다 */
+.postgrid { grid-template-columns: minmax(0, 1fr) 280px; }
+.rail li .t { white-space: normal; overflow: visible; text-overflow: clip; overflow-wrap: anywhere; line-height: 1.4; }
+.rail li button { align-items: start; padding: 6px 8px; }
+.rail li .no { padding-top: 2px; }
+/* 목록 행의 요약도 한 줄 말줄임 대신 두 줄까지 */
+.prow .s { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+@media (max-width: 1199.98px) { .postgrid { grid-template-columns: minmax(0, 1fr); } }
+
+/* 오른쪽 순서 목록: 접두어 칩 + 두 줄 제한(현재 글은 전체) + 잘린 글만 호버 말풍선 */
+.rail li .t { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; white-space: normal; text-overflow: clip; overflow-wrap: anywhere; line-height: 1.4; }
+.rail li.cur .t { display: block; overflow: visible; }
+.rail .pre { display: inline-block; font-size: .65rem; font-weight: 700; line-height: 1; padding: 3px 6px; margin-right: 6px; border-radius: 4px; background: #e9ecfc; color: #4254c5; vertical-align: 1px; white-space: nowrap; }
+.rail li.cur .pre { background: rgba(255,255,255,.22); color: #fff; }
+.rail-tip { position: fixed; z-index: 60; max-width: 360px; background: #172b4d; color: #fff; padding: 8px 12px; border-radius: .375rem; font-size: .82rem; line-height: 1.45; box-shadow: 0 6px 18px rgba(0,0,0,.28); transform: translateX(-100%); opacity: 0; pointer-events: none; transition: opacity .12s; overflow-wrap: anywhere; }
+.rail-tip.below { transform: none; }
+.rail-tip.on { opacity: 1; }
