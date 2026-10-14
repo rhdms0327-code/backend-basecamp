@@ -363,6 +363,8 @@ createApp({
       readMin.value = Math.max(1, Math.round(body.replace(/```[\s\S]*?```/g, '').replace(/\s+/g, '').length / 500));
       const wrap = document.createElement('div');
       wrap.innerHTML = DOMPurify.sanitize(marked.parse(body));
+      // 문서 첫 줄의 # 제목은 상단 배너 제목과 같으므로 본문에서는 뺀다
+      if (wrap.firstElementChild && wrap.firstElementChild.tagName === 'H1') wrap.firstElementChild.remove();
       const ALERT = { NOTE: '참고', TIP: '팁', IMPORTANT: '중요', WARNING: '주의', CAUTION: '경고' };
       wrap.querySelectorAll('blockquote').forEach((bq) => {
         const m = bq.textContent.trim().match(/^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*/i);
@@ -419,7 +421,10 @@ createApp({
       document.querySelectorAll('.md pre code').forEach((c) => hljs.highlightElement(c));
       // 오른쪽 순서 목록은 현재 글이 가운데 보이도록 스크롤한다
       const railEl = document.querySelector('.rail'), railCur = railEl && railEl.querySelector('li.cur');
-      if (railCur) railEl.scrollTop = railCur.offsetTop - railEl.clientHeight / 2 + railCur.offsetHeight / 2;
+      if (railCur) {
+        const rr = railEl.getBoundingClientRect(), cr = railCur.getBoundingClientRect();
+        railEl.scrollTop += (cr.top - rr.top) - railEl.clientHeight / 2 + cr.height / 2;
+      }
       measureRail();
     }
 
