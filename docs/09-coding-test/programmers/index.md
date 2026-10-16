@@ -3,7 +3,7 @@ layout: page
 title: "🧩 프로그래머스 (C#)"
 has_children: true
 parent: "Coding Test"
-nav_order: 1
+nav_order: 2
 ---
 
 # 🧩 프로그래머스 (C#)

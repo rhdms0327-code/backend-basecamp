@@ -61,7 +61,8 @@ const rel = (p) => path.relative(DOCS, p).split(path.sep).join('/');
 // ---------- 스캔 ----------
 const mdFiles = walk(DOCS).map(rel).filter((r) => r.endsWith('.md') && !EXCLUDE.has(r.split('/')[0]));
 
-const cats = {}; // "01-dotnet" / "01-dotnet/csharp-10" -> 표시 제목
+let cats = {}; // "01-dotnet" / "01-dotnet/csharp-10" -> 표시 제목
+const navOrder = {}; // "01-dotnet/csharp-10" -> 주제 index.md 의 nav_order
 const order = {}; // 글 경로 -> 주제 index.md 표에서의 순서
 const posts = [];
 
@@ -78,6 +79,7 @@ for (const r of mdFiles) {
       cats[parts.slice(0, -1).join('/')] = meta.title || humanize(parts[parts.length - 2]);
     }
     if (parts.length === 3) {
+      if (meta.nav_order !== undefined && meta.nav_order !== '') navOrder[`${parts[0]}/${parts[1]}`] = Number(meta.nav_order);
       // 주제 index.md 표의 링크 순서 = 학습 순서
       let i = 0;
       for (const m of body.matchAll(/\]\(\.\/(docs\/[^)\s]+?)\.md\)/g)) order[`${parts[0]}/${parts[1]}/${m[1]}`] = i++;
@@ -97,6 +99,14 @@ for (const r of mdFiles) {
   });
 }
 for (const p of posts) if (order[p.path] !== undefined) p.order = order[p.path];
+
+// 사이드바 주제 순서 = cats 키 순서. 주제는 nav_order, 같거나 없으면 폴더 이름순으로 정렬한다.
+const byNav = (a, b) => (navOrder[a] ?? 999) - (navOrder[b] ?? 999) || a.localeCompare(b);
+const catKeys = Object.keys(cats);
+cats = Object.fromEntries([
+  ...catKeys.filter((k) => !k.includes('/')).sort(),
+  ...catKeys.filter((k) => k.includes('/')).sort(byNav),
+].map((k) => [k, cats[k]]));
 
 const index = { generatedAt: new Date().toISOString(), cats, posts };
 

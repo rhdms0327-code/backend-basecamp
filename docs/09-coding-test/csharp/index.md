@@ -3,7 +3,7 @@ layout: page
 title: "🎯 C# 코테 문법"
 has_children: true
 parent: "Coding Test"
-nav_order: 2
+nav_order: 1
 ---
 
 # 🎯 C# 코테 문법

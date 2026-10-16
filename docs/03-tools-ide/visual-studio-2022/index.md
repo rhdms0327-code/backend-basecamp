@@ -3,7 +3,7 @@ layout: page
 title: "💜 Visual Studio 2022"
 parent: "Tools & IDE"
 has_children: true
-nav_order: 1
+nav_order: 3
 ---
 
 # 💜 Visual Studio 2022
