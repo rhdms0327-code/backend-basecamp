@@ -222,3 +222,8 @@ main > .sec:first-child > .sechead span { color: rgba(255,255,255,.85); }
   .article { padding: 4px 18px 22px; }
   .lead-box { padding: 14px 16px; }
 }
+
+/* 학습 게시글: 틀린 곳(빨강), 쉐도잉 문장(초록 인용) */
+.md mark { background: #fde8e6; color: #c8241a; font-weight: 700; border-radius: 3px; padding: 0 2px; }
+.md del { color: #c8241a; text-decoration-color: #c8241a; }
+.article blockquote:not(.callout) { background: #e0f3ea; border-left-color: #12805a; color: #18213a; font-size: 1.02rem; line-height: 1.8; border-radius: 0 .375rem .375rem 0; padding: 10px 16px; }
