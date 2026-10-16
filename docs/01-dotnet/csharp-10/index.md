@@ -97,3 +97,18 @@ nav_order: 2
 | **[🎯 [CLR 심층 분석] CLR 관련 개념 정리](./docs/clr-deep-dive.md)** | `CLR` `런타임` |
 | **[🎯 C# 코딩 규칙 (Coding Conventions)](./docs/coding-conventions.md)** | `코딩규칙` `클린코드` |
 
+### 🔀 [버전별 추가 문법] C# 6 ~ 10
+
+> 책에서 따로 다루지 않은 C# 6~10 문법을 버전과 함께 정리합니다. C# 11 이후는 [🆕 C# 14](../csharp-14/index.md) 메뉴에 있습니다.
+
+| 제목 | 키워드 |
+| :--- | :--- |
+| **[🎯 [C# 6·8] null 연산자: ?. · ??= · nameof](./docs/v-null-operators.md)** | `C# 6` `C# 8` `null 조건` `nameof` |
+| **[🎯 [C# 8] nullable 참조 형식 (string?)](./docs/v-nullable-reference-types.md)** | `C# 8` `nullable` `CS8618` |
+| **[🎯 [C# 6~8] 짧게 쓰는 메서드: 식 본문 · 로컬 함수 · throw 식](./docs/v-concise-methods.md)** | `C# 6` `C# 7` `식 본문` `로컬 함수` |
+| **[🎯 [C# 6·8] 인덱스·범위와 using 선언](./docs/v-index-range-using.md)** | `C# 8` `^` `..` `using 선언` |
+| **[🎯 [C# 6~7] out 변수 인라인과 예외 필터](./docs/v-out-var-exception-filter.md)** | `C# 7` `out var` `when` |
+| **[🎯 [C# 7.1·8] async Main과 비동기 스트림](./docs/v-async-streams.md)** | `C# 8` `IAsyncEnumerable` `await foreach` |
+| **[🎯 [C# 7~9] 작은 편의 문법: new() · default · 숫자 구분자](./docs/v-small-conveniences.md)** | `C# 9` `new()` `default` |
+| **[🎯 [C# 10] 파일 범위 namespace · global using · 확장 속성 패턴](./docs/v-csharp10-features.md)** | `C# 10` `namespace` `global using` |
+

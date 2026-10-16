@@ -3,7 +3,7 @@ layout: page
 title: "🎨 Style Guide"
 has_children: true
 parent: ".NET"
-nav_order: 4
+nav_order: 5
 ---
 
 # 🎨 Style Guide

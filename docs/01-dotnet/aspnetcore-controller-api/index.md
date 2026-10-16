@@ -3,7 +3,7 @@ layout: page
 title: "🌐 ASP.NET Core API (Controller)"
 has_children: true
 parent: ".NET"
-nav_order: 3
+nav_order: 4
 ---
 
 # 🌐 ASP.NET Core API (Controller)
