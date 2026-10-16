@@ -210,4 +210,124 @@ error CS0103: 'Array' 이름이 현재 컨텍스트에 없습니다.
 
 ---
 
+## 입출력형 문제 테스트 (ConsoleRunner)
+
+대부분의 문제는 `solution` 함수형이라 위의 방법으로 충분합니다. "문자열 출력하기"처럼 `Main`에서 `Console`로 직접 읽고 쓰는 **입출력형** 문제는 함수에 값을 넘길 수 없어서, 입력과 출력을 문자열로 바꿔 끼우는 도우미를 씁니다.
+
+| 문제 형식 | 템플릿 | 테스트 방법 |
+| :--- | :--- | :--- |
+| solution 함수형 | `public class Solution` + `solution(...)` | 7번처럼 `solution`을 직접 호출 |
+| 입출력형 | `public class Example` + `static void Main()` | `ConsoleRunner`로 `Main` 실행 |
+
+간단한 입출력형 문제(읽어서 그대로 출력)는 빌드만 통과시키고, 프로그래머스의 **코드 실행**으로 확인해도 됩니다.
+
+### 도우미 파일 추가 (한 번만)
+
+`tests/Solutions.Tests/ConsoleRunner.cs`를 만듭니다.
+
+```csharp
+using System;
+using System.IO;
+
+/// <summary>
+/// 입출력형 문제(Main에서 Console로 읽고 쓰는 문제)를 테스트에서 실행하는 도우미.
+/// 입력 문자열을 표준 입력으로 넣고 Main을 실행한 뒤, 출력된 내용을 문자열로 돌려준다.
+/// 주의: 풀이에 Console.Clear()가 있으면 IOException이 나므로 로컬에서는 주석 처리한다.
+/// </summary>
+public static class ConsoleRunner
+{
+    // Console 입출력은 프로그램 전체가 공유하므로, 테스트가 동시에 실행돼도 섞이지 않게 한 번에 하나씩 실행한다.
+    private static readonly object Gate = new();
+
+    /// <summary>출력 전체를 그대로 돌려준다. 줄바꿈은 Environment.NewLine.</summary>
+    public static string Run(Action main, string input = "")
+    {
+        lock (Gate)
+        {
+            var oldIn = Console.In;
+            var oldOut = Console.Out;
+            try
+            {
+                Console.SetIn(new StringReader(input));
+                var output = new StringWriter();
+                Console.SetOut(output);
+                main();
+                return output.ToString();
+            }
+            finally
+            {
+                Console.SetIn(oldIn);
+                Console.SetOut(oldOut);
+            }
+        }
+    }
+
+    /// <summary>출력을 줄 단위 배열로 돌려준다. 마지막 줄바꿈 뒤의 빈 줄은 뺀다.</summary>
+    public static string[] RunLines(Action main, string input = "")
+    {
+        var output = Run(main, input).Replace("\r\n", "\n");
+        if (output.EndsWith("\n")) output = output[..^1];
+        return output.Split('\n');
+    }
+}
+```
+
+| 함수 | 돌려주는 것 | 쓰는 곳 |
+| :--- | :--- | :--- |
+| `ConsoleRunner.Run(Main, 입력)` | 출력 전체 문자열 (줄바꿈 포함) | 공백·줄바꿈까지 정확히 비교할 때 |
+| `ConsoleRunner.RunLines(Main, 입력)` | 줄 단위 배열 (마지막 빈 줄 제외) | 보통은 이쪽. Windows 줄바꿈(`\r\n`)을 신경 쓰지 않아도 됨 |
+
+`Console`은 프로그램 전체가 같이 쓰기 때문에, 테스트가 동시에 실행돼도 출력이 섞이지 않도록 `lock`으로 한 번에 하나씩 실행합니다.
+
+### 풀이 파일
+
+```csharp
+// src/Solutions/Stage0/P181952.cs
+using System;
+
+namespace P181952;
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/181952
+public class Example
+{
+    public static void Main()
+    {
+        String s;
+
+        // Console.Clear();   // 로컬 테스트에서는 주석 처리
+        s = Console.ReadLine();
+        Console.WriteLine(s);
+    }
+}
+```
+
+### 테스트 파일
+
+```csharp
+// tests/Solutions.Tests/Stage0/P181952Tests.cs
+using System;
+using Xunit;
+
+public class P181952Tests
+{
+    [Theory]
+    [InlineData("HelloWorld!")]
+    public void Examples(string input) =>
+        Assert.Equal(new[] { input }, ConsoleRunner.RunLines(P181952.Example.Main, input));
+
+    [Fact]
+    public void RawOutput() =>
+        Assert.Equal("HelloWorld!" + Environment.NewLine,
+            ConsoleRunner.Run(P181952.Example.Main, "HelloWorld!"));
+}
+```
+
+- 여러 줄 입력은 `"3\n1\n2\n3"`처럼 `\n`으로 이어서 넣습니다.
+- 출력이 여러 줄이면 `RunLines`의 기대값을 `new[] { "a = 4", "b = 5" }`처럼 줄마다 적습니다.
+- 실행은 다른 문제와 같이 `dotnet test --filter P181952`입니다.
+
+> **`Console.Clear()` 주의**: 프로그래머스 입출력형 템플릿에는 `Console.Clear();`가 들어 있습니다. 출력을 문자열로 받는 상태에서 실행하면 `IOException: 핸들이 잘못되었습니다.`가 나므로, 로컬 테스트에서는 이 줄을 주석 처리합니다. 사이트에 제출할 때는 템플릿대로 두면 됩니다.
+
+---
+
 [🔙 뒤로 가기](../index.md)

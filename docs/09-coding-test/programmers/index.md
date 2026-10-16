@@ -12,7 +12,7 @@ nav_order: 1
 
 ---
 
-## 📂 리스트 (총 5건)
+## 📂 리스트 (총 6건)
 
 ### 🧭 [준비 과정] 계획과 원칙
 
@@ -21,6 +21,7 @@ nav_order: 1
 | **[🧩 [준비 과정] 프로그래머스 C# 준비 계획](./docs/prep-guide.md)** | |
 | **[🧩 [준비 과정] C# 코테 프로젝트 만들기](./docs/project-setup.md)** | |
 | **[🧩 [준비 과정] xUnit 테스트 작성 가이드](./docs/xunit-test-guide.md)** | |
+| **[🧩 [준비 과정] 입출력형 문제 풀이](./docs/io-problems.md)** | |
 | **[🧩 [준비 과정] VS Code C# 단축어와 스니펫 정리](./docs/vscode-snippets.md)** | |
 
 ### 📈 [진행 이력] 레벨별

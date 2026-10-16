@@ -140,6 +140,25 @@ public void Examples(string[] book, bool expected) {
 - 빈 배열은 `new int[0]`, 큰 정수는 `3000000000L`처럼 `L`을 붙입니다.
 - 값의 순서와 개수는 메서드 매개변수와 같아야 합니다. 기대값을 마지막에 두면 읽기 편합니다.
 
+#### 배열은 `new[] { ... }`로 넘긴다
+
+`InlineData`는 어떤 타입이든 받도록 매개변수가 `object`로 되어 있습니다. 받는 쪽이 타입을 모르므로, **넘기는 쪽에서 "이건 문자열 배열이다"라고 밝혀야** 합니다.
+
+| 쓴 형태 | 결과 | 이유 |
+| :--- | :--- | :--- |
+| `new[] { "a = 4", "b = 5" }` | 됨 | 값을 보고 `string[]`로 정해진다 |
+| `{ "a = 4", "b = 5" }` | 오류 | `new` 없는 초기화는 변수 선언에서만 쓸 수 있다 |
+| `["a = 4", "b = 5"]` | 오류 `CS9174` | 컬렉션 식(C# 12)은 받는 쪽 타입을 보고 배열·리스트를 정하는데, 받는 쪽이 `object`라 정할 수 없다 |
+
+```csharp
+[Theory]
+[InlineData("4 5", new[] { "a = 4", "b = 5" })]   // 속성 끝의 ]까지 닫는다
+public void Examples(string input, string[] expects) =>
+    Assert.Equal(expects, ConsoleRunner.RunLines(P181951.Example.Main, input));
+```
+
+`new[] { ... }` 문법 자체는 [배열 (Array)](../../../01-dotnet/csharp-10/docs/array.md)의 3.1에 정리했습니다.
+
 ```csharp
 public static TheoryData<int[][], int> GridCases => new() {
     { new[] { new[] { 1, 0 }, new[] { 0, 1 } }, 2 },
@@ -332,50 +351,14 @@ public class P42577Tests {
 }
 ```
 
-### 10. 문법 풀이
+### 10. C# 문법과 함수
 
-이 가이드의 코드에 나온 문법입니다. 처음 보는 기호가 있으면 여기서 찾습니다.
+이 가이드의 코드에 나온 C# 문법과 풀이에 자주 쓰는 함수는 [C# 코테 문법](../../csharp/index.md) 메뉴에 모았습니다.
 
-| 문법 | 뜻 | 예 |
-| :--- | :--- | :--- |
-| `using Xunit;` | 다른 네임스페이스의 이름을 가져온다. 테스트 프로젝트는 템플릿이 전역으로 넣어 두어 생략해도 되지만, 적어 두면 읽기 쉽다 | `using System.Linq;` |
-| `namespace P42577;` | 클래스가 속할 이름 묶음. 문제마다 달리해 `Solution` 이름 충돌을 막는다 (file-scoped, C# 10) | `new P42577.Solution()` |
-| `[Theory]` · `[Fact]` | 속성(attribute). 메서드 위 대괄호로 "이건 테스트"라고 표시 | `[Fact]` |
-| `[InlineData(a, b)]` | 테스트 매개변수에 넣을 값 한 벌. 줄마다 케이스 하나 | `[InlineData(new[]{1,2}, 3)]` |
-| `new[] { 1, 2, 3 }` | 배열 만들기. 요소로 타입을 추론 | `new[] { "a", "b" }` |
-| `var sut` | `var`는 타입 추론. `sut`는 system under test(테스트 대상)라는 관례 이름 | `var sut = new P42577.Solution();` |
-| `=>` | 람다(이름 없는 함수) 또는 한 줄짜리 메서드 본문 | `x => x * 2` |
-| `_ => ...` | 쓰지 않는 매개변수를 `_`로 받는 람다 | `.Select(_ => rnd.Next(10))` |
-| `1_000_000` | 숫자 자리 구분자. 값은 1000000 | `new string[1_000_000]` |
-| `$"{x}ms"` | 문자열 보간. 중괄호 안에 값을 넣는다 | `$"{sw.ElapsedMilliseconds}ms"` |
-| `nameof(GridCases)` | 이름을 문자열로 만들되 오타는 컴파일 때 잡는다 | `[MemberData(nameof(GridCases))]` |
-| `new() { ... }` | 타입을 생략한 객체 생성(C# 9) + 초기화 목록 | `TheoryData<int, int> d = new() { {1, 2} };` |
-| `(string[])arr.Clone()` | 배열 복사본을 만들어 원본 보호 | `solution((int[])arr.Clone())` |
-| `static` | 객체 없이 클래스에 붙은 멤버. `MemberData`와 보조 함수에 사용 | `static bool BruteForce(...)` |
+- [자주 나오는 기본 문법](../../csharp/docs/syntax-basics.md)
+- [자주 쓰는 함수 모음](../../csharp/docs/functions.md)
 
-### 11. 풀이에 자주 쓰는 함수
-
-프로그래머스 C# 버전에 따라 일부 최신 함수는 없을 수 있습니다. 사이트에서 컴파일 오류가 나면 오래된 방식으로 바꿉니다.
-
-| 분류 | 함수 | 설명 |
-| :--- | :--- | :--- |
-| 정렬 | `Array.Sort(arr)` · `list.Sort()` | 제자리 정렬. 원본이 바뀜 |
-| 정렬 | `Array.Sort(arr, (a, b) => b - a)` | 비교 함수로 내림차순 등 지정 |
-| 정렬 | `arr.OrderBy(x => x).ToArray()` | 원본은 두고 새로 정렬 (`using System.Linq;`) |
-| 문자열 | `string.Join(",", arr)` | 배열을 문자열로 이어 붙이기 |
-| 문자열 | `s.ToCharArray()` · `new string(chars)` | 문자 배열로 바꿔 수정 후 다시 문자열로 |
-| 문자열 | `s.Split(' ')` · `s.Substring(i, len)` | 쪼개기, 자르기 |
-| 문자열 | `StringBuilder.Append` | 반복해서 이어 붙일 때 (`using System.Text;`) |
-| 변환 | `int.Parse(s)` · `n.ToString()` · `c - '0'` | 문자열·숫자·숫자 문자 변환 |
-| 수학 | `Math.Max` · `Min` · `Abs` · `Sqrt` · `Pow` | `Sqrt` · `Pow`는 실수 반환, `(int)` 변환 필요 |
-| Dictionary | `ContainsKey` · `TryGetValue` · `dict[key]++` | 개수 세기. 없는 키를 읽기 전에 확인 |
-| 집합 | `HashSet<T>.Add` · `Contains` | 중복 제거, O(1) 포함 검사 |
-| 큐·스택 | `Queue.Enqueue/Dequeue` · `Stack.Push/Pop` | BFS, 괄호 검사 |
-| 우선순위 큐 | `PriorityQueue<T, P>` | .NET 6 이상. 사이트에서 컴파일되는지 먼저 확인 |
-| 배열 | `new int[n, m]` · `Array.Fill` | 2차원 배열, 초기화 |
-| LINQ | `Sum` · `Max` · `Where` · `Select` · `Distinct` | 짧게 쓰기 좋지만 반복문 안에서는 느려질 수 있음 |
-
-### 12. 붙이기 전 점검
+### 11. 붙이기 전 점검
 
 - [ ] 문제의 입출력 예를 모두 `[Theory]`에 넣었다
 - [ ] 최솟값·최댓값·원소 1개 같은 경계 케이스를 확인했다

@@ -11,26 +11,6 @@ nav_exclude: true
 
 ---
 
-## 예제 문제: 정수 부분 (Lv.0)
-
-> 실수 `flo`가 매개변수로 주어질 때, `flo`의 정수 부분을 return하도록 solution 함수를 완성해주세요. (제한: 0 ≤ flo ≤ 100)
-
-[문제 바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181850?language=csharp)
-
-```csharp
-using System;
-
-public class Solution {
-    public int solution(double flo) {
-        return (int)flo;   // 소수점 아래를 버린다: 1.42 → 1, 69.32 → 69
-    }
-}
-```
-
-`(int)`로 형변환하면 소수점 아래를 버립니다. 이 문제는 `flo`가 0 이상이라 버림과 내림의 결과가 같아서 `(int)flo`로 충분합니다. 음수가 들어오는 문제라면 아래 1번 표처럼 결과가 달라집니다.
-
----
-
 ## 1. 실수 → 정수: 버림·내림·올림
 
 | 코드 | `2.7` | `-2.7` | 설명 |

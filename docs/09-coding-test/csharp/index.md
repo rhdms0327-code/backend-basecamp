@@ -12,11 +12,14 @@ nav_order: 2
 
 ---
 
-## 📂 리스트 (총 2건)
+## 📂 리스트 (총 5건)
 
 | 제목 | 키워드 |
 | :--- | :--- |
+| **[🎯 자주 나오는 기본 문법](./docs/syntax-basics.md)** | |
+| **[🎯 자주 쓰는 함수 모음](./docs/functions.md)** | |
 | **[🎯 문자열 (string) 다루기](./docs/string.md)** | |
 | **[🎯 숫자 변환과 계산 (실수 → 정수)](./docs/number.md)** | |
+| **[🎯 콘솔 입출력 (Console)](./docs/console.md)** | |
 
 ---
